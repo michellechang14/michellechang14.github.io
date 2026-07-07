@@ -9,7 +9,7 @@ doi: "10.37188/CJL.20220118"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "13897041895779311179"
 abstract: "A Chinese-language review discussing challenges and solutions for nanomaterials in antitumor photothermal therapy."
 highlights:
   - "Reviews design challenges for photothermal nanomaterials."

@@ -9,7 +9,7 @@ doi: "10.1021/acsami.9b00361"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "7449742456596832122"
 abstract: "Nanoscale porphyrinic covalent organic polymers fabricated for combined photodynamic and photothermal cancer therapy."
 highlights:
   - "Creates nanoscale porphyrinic covalent organic polymers."

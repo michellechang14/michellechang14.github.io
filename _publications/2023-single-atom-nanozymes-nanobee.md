@@ -9,7 +9,7 @@ doi: "10.1016/j.nantod.2023.101981"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "17927017023298430338"
 abstract: "A single-atom nanozyme-based nanobee vehicle for autophagy inhibition-enhanced synergistic cancer therapy."
 highlights:
   - "Uses single-atom nanozyme architecture in a nanobee vehicle."

@@ -9,7 +9,7 @@ doi: "10.1002/smll.201907146"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "3297533043665560480"
 abstract: "Cu2MoS4/Au heterostructures designed to improve catalase-like activity, photoconversion efficiency, and phototherapy-induced immunotherapy."
 highlights:
   - "Targets both primary and metastatic tumors."

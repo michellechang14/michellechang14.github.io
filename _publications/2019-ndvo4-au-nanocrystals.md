@@ -9,7 +9,7 @@ doi: "10.1016/j.actbio.2019.08.026"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "9632242255307593868"
 abstract: "NdVO4/Au nanocrystals with enhanced photoconversion for photothermal/photoacoustic imaging-guided anticancer phototherapy."
 highlights:
   - "Improves photoconversion performance in rare-earth nanocrystals."

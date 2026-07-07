@@ -9,7 +9,7 @@ doi: "10.1016/j.jhazmat.2022.130089"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "17527939174873179356"
 abstract: "A study on amphiphilic ligand in situ assembly of uranyl active sites and selective interactions with molybdenum disulfide."
 highlights:
   - "Corresponding-author work in environmental materials."

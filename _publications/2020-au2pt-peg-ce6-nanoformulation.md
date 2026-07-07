@@ -9,7 +9,7 @@ doi: "10.1016/j.biomaterials.2020.120093"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "16692025973443893146"
 abstract: "A co-first-authored study of Au2Pt-PEG-Ce6 nanoformulation with dual nanozyme activities for synergistic chemodynamic therapy and phototherapy."
 highlights:
   - "Develops a dual-nanozyme nanoformulation."

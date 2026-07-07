@@ -9,7 +9,7 @@ doi: "10.1002/smll.202005728"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "14838756328152488650"
 abstract: "An L-arginine-loaded black mesoporous titania nanovaccine for ultrasound-triggered sonodynamic therapy, gas therapy, and immunotherapy."
 highlights:
   - "Combines sonodynamic therapy, gas therapy, and immunotherapy."

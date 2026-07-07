@@ -9,7 +9,7 @@ doi: "10.1002/adma.202004647"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "2107947758608353510"
 abstract: "Tumor microenvironment-activated Cu2O@CaCO3 nanocomposites for biodegradable, metabolizable synergistic oncotherapy."
 highlights:
   - "Designs a bio-decomposable and metabolizable nanocomposite."

@@ -9,7 +9,7 @@ doi: "10.1002/adma.201905271"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "8225219847546509827"
 abstract: "A hollow-structured Cu2MoS4 cascade bioreactor integrating chemodynamic therapy, starvation therapy, phototherapy, and immunotherapy."
 highlights:
   - "Builds a multifunctional nanoreactor for multimodal cancer treatment."

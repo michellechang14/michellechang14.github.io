@@ -9,7 +9,7 @@ doi: "10.1021/acsami.9b17375"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "8882647605272734490"
 abstract: "Azo initiator-loaded black mesoporous titania with multiple optical energy conversion for synergistic photo-thermal-dynamic therapy."
 highlights:
   - "Uses black mesoporous titania as an optical energy conversion platform."

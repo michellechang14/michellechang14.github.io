@@ -9,7 +9,7 @@ doi: "10.1016/j.jece.2023.111563"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "1596359079926304"
 abstract: "MoS2/Au heterojunction nanostructures for electrochemical detection of trace Hg(II) in wastewater samples."
 highlights:
   - "Applies heterojunction nanostructures to environmental electrochemical sensing."

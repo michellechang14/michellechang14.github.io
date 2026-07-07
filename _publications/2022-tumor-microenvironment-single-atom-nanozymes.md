@@ -9,7 +9,7 @@ doi: "10.1002/chem.202104081"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "9987654257339469802"
 abstract: "Tumor microenvironment-responsive single-atom nanozymes for enhanced antitumor therapy."
 highlights:
   - "Focuses on tumor microenvironment-responsive nanozyme design."

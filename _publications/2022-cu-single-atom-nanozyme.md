@@ -9,7 +9,7 @@ doi: "10.1002/anie.202209245"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "16423139814400958085"
 abstract: "A Cu single-atom nanozyme strategy for high-efficiency mild photothermal therapy through regulation of cellular metabolism."
 highlights:
   - "Develops a Cu single-atom nanozyme for mild photothermal cancer therapy."

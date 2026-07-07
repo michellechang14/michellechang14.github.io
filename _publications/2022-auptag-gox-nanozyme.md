@@ -9,7 +9,7 @@ doi: "10.1002/advs.202202332"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "16757795993961611422"
 abstract: "An AuPtAg-GOx nanozyme for synergistic tumor immunotherapy induced by starvation therapy-augmented mild photothermal therapy."
 highlights:
   - "Combines glucose oxidase-mediated starvation with mild photothermal therapy."

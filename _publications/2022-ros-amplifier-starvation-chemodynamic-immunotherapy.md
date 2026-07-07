@@ -9,7 +9,7 @@ doi: "10.1002/adma.202106010"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "4156854907998366736"
 abstract: "A tumor-microenvironment-activated reactive oxygen species amplifier for enzymatic cascade cancer starvation, chemodynamic, and immunotherapy."
 highlights:
   - "Co-first-authored work on cascade enzymatic cancer therapy."

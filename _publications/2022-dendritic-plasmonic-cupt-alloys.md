@@ -9,7 +9,7 @@ doi: "10.1002/smll.202206423"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "14243542855051214413"
 abstract: "Dendritic plasmonic CuPt alloys for closed-loop multimode cancer therapy."
 highlights:
   - "Uses plasmonic CuPt alloy nanostructures for multimode therapy."

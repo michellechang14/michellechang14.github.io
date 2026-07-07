@@ -9,7 +9,7 @@ doi: "10.1002/anie.202005111"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "12904021309981860676"
 abstract: "MnOx nanospikes as nanoadjuvants and immunogenic cell death drugs for antitumor immunity and antimetastatic effect."
 highlights:
   - "Explores nanoadjuvants for antitumor immunity."

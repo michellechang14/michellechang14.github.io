@@ -9,7 +9,7 @@ doi: "10.1002/smll.202100961"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "1162535152767513924"
 abstract: "A Bi2Se3/Au heterostructure for NIR-triggered multi-mode antitumor therapy."
 highlights:
   - "Develops a NIR-triggered heterostructure platform."

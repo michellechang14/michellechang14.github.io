@@ -9,7 +9,7 @@ doi: "10.1002/adma.202308774"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "12726078190873308438"
 abstract: "A NIR-activatable CoP/NiCoP heterostructured nanoadjuvant for lactate metabolism intervention, photocatalytic hydrogen therapy, and photoimmunotherapy."
 highlights:
   - "Combines lactate metabolism intervention with hydrogen therapy."

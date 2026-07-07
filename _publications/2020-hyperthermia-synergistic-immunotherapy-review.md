@@ -9,7 +9,7 @@ doi: "10.1002/adma.202004788"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "2801536911795699916"
 abstract: "A review of recent progress in hyperthermia therapy-based synergistic immunotherapy."
 highlights:
   - "Surveys hyperthermia-enabled cancer immunotherapy strategies."

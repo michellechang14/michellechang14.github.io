@@ -9,7 +9,7 @@ doi: "10.1021/jacs.2c12772"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "9120268248534472493"
 abstract: "A heterostructural CuSe/CoSe2 nanoadjuvant that potentiates ferroptosis and photoimmunotherapy through intratumoral blocked lactate efflux."
 highlights:
   - "Targets lactate efflux in the tumor microenvironment."

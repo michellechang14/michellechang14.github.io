@@ -9,7 +9,7 @@ doi: "10.1002/anie.202101924"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "14202708714206574770"
 abstract: "A single-atom Pd nanozyme platform designed to boost ferroptosis and improve mild-temperature photothermal therapy."
 highlights:
   - "Uses single-atom Pd nanozyme activity to enhance therapy."
