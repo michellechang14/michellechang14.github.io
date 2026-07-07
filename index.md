@@ -94,7 +94,7 @@ title: Home
           <div class="chart-empty"><span data-lang="en">Waiting for Scholar history.</span><span data-lang="zh">等待 Scholar 年度数据。</span></div>
         {% endif %}
       </div>
-      {% assign wordcloud_path = '/assets/img/wordmap/wordcloud_xs.png' %}
+      {% assign wordcloud_path = '/assets/img/wordmap/wordcloud_s.png' %}
       {% assign wordcloud_image = site.static_files | where: 'path', wordcloud_path | first %}
       <a class="text-link" href="{{ '/scholar/' | relative_url }}"><span data-lang="en">View citation tracker</span><span data-lang="zh">查看引用追踪</span></a>
       {% if wordcloud_image %}
