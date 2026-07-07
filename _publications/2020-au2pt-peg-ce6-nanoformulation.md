@@ -15,6 +15,7 @@ highlights:
   - "Develops a dual-nanozyme nanoformulation."
   - "Integrates chemodynamic therapy and phototherapy."
 citation: "Man Wang, Mengyu Chang et al. Au2Pt-PEG-Ce6 Nanoformulation with Dual Nanozyme Activities. Biomaterials 2020, 252, 120093."
+scholar_citation_id: "WaHuZvMAAAAJ:roLk4NBRz8UC"
 ---
 
 Add nanozyme-activity and formulation details here.

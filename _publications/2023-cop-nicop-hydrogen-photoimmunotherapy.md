@@ -15,6 +15,7 @@ highlights:
   - "Combines lactate metabolism intervention with hydrogen therapy."
   - "Uses a NIR-activatable heterostructured nanoadjuvant."
 citation: "Chunzheng Yang et al. NIR-Activatable Heterostructured Nanoadjuvant CoP/NiCoP. Adv. Mater. 2023, 2308774."
+scholar_citation_id: "WaHuZvMAAAAJ:3fE2CSJIrl8C"
 ---
 
 Add NIR activation and hydrogen therapy details here.

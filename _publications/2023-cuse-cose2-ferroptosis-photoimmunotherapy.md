@@ -15,6 +15,7 @@ highlights:
   - "Targets lactate efflux in the tumor microenvironment."
   - "Combines ferroptosis with photoimmunotherapy."
 citation: "Chunzheng Yang et al. Heterostructural Nanoadjuvant CuSe/CoSe2 for Potentiating Ferroptosis and Photoimmunotherapy. J. Am. Chem. Soc. 2023, 145, 7205-7217."
+scholar_citation_id: "WaHuZvMAAAAJ:UebtZRa9Y70C"
 ---
 
 Add lactate metabolism and nanoadjuvant mechanism notes here.

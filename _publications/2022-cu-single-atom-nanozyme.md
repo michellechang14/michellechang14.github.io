@@ -15,6 +15,7 @@ highlights:
   - "Develops a Cu single-atom nanozyme for mild photothermal cancer therapy."
   - "Connects nanomaterial design with cellular metabolic regulation."
 citation: "Mengyu Chang et al. Cu Single Atom Nanozyme Based High-Efficiency Mild Photothermal Therapy through Cellular Metabolic Regulation. Angew. Chem. Int. Ed. 2022, 61, e20220924."
+scholar_citation_id: "WaHuZvMAAAAJ:LkGwnXOMwfcC"
 ---
 
 This page can be expanded with a graphical abstract, mechanism summary, and links to related datasets or media.

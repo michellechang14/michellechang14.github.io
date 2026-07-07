@@ -15,6 +15,7 @@ highlights:
   - "Surveys hyperthermia-enabled cancer immunotherapy strategies."
   - "Connects thermal therapy platforms with immune activation."
 citation: "Mengyu Chang et al. Recent Advances in Hyperthermia Therapy-Based Synergistic Immunotherapy. Adv. Mater. 2020, 33, 2004788."
+scholar_citation_id: "WaHuZvMAAAAJ:d1gkVwhDpl0C"
 ---
 
 This review page can later include a thematic map of hyperthermia and immunotherapy mechanisms.

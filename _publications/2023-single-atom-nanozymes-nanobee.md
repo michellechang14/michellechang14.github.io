@@ -15,6 +15,7 @@ highlights:
   - "Uses single-atom nanozyme architecture in a nanobee vehicle."
   - "Targets autophagy inhibition to enhance cancer therapy."
 citation: "Man Wang et al. Single-Atom Nanozymes Based Nanobee Vehicle for Autophagy Inhibition-Enhanced Synergistic Cancer Therapy. Nano Today 2023, 52, 101981."
+scholar_citation_id: "WaHuZvMAAAAJ:5nxA0vEk-isC"
 ---
 
 Add nanobee vehicle design and autophagy-inhibition mechanism here.

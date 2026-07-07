@@ -15,6 +15,7 @@ highlights:
   - "Targets both primary and metastatic tumors."
   - "Combines catalytic activity with photoconversion."
 citation: "Mengyu Chang et al. Cu2MoS4/Au Heterostructures with Enhanced Catalase-Like Activity and Photoconversion Efficiency. Small 2020, 16, 1907146."
+scholar_citation_id: "WaHuZvMAAAAJ:9yKSN-GCB0IC"
 ---
 
 Add mechanism graphics and metastasis-model notes here.

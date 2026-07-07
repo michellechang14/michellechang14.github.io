@@ -15,6 +15,7 @@ highlights:
   - "Explores nanoadjuvants for antitumor immunity."
   - "Links immunogenic cell death with antimetastatic response."
 citation: "Binbin Ding et al. MnOx Nanospikes as Nanoadjuvants and Immunogenic Cell Death Drugs. Angew. Chem. Int. Ed. 2020, 59, 1-5."
+scholar_citation_id: "WaHuZvMAAAAJ:eQOLeE2rZwMC"
 ---
 
 Add immune-response and metastasis-model details here.

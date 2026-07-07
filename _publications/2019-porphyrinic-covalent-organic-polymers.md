@@ -15,6 +15,7 @@ highlights:
   - "Creates nanoscale porphyrinic covalent organic polymers."
   - "Combines photodynamic and photothermal cancer therapy."
 citation: "Yanshu Shi et al. Facile Fabrication of Nanoscale Porphyrinic Covalent Organic Polymers. ACS Appl. Mater. Interfaces 2019, 11, 12321-12326."
+scholar_citation_id: "WaHuZvMAAAAJ:IjCSPb-OGe4C"
 ---
 
 Add fabrication approach and therapy-performance notes here.

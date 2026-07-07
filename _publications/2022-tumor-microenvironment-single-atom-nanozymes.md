@@ -15,6 +15,7 @@ highlights:
   - "Focuses on tumor microenvironment-responsive nanozyme design."
   - "Advances single-atom nanozyme applications in antitumor therapy."
 citation: "Mengyu Chang et al. Tumor Microenvironment Responsive Single-Atom Nanozymes for Enhanced Antitumor Therapy. Chem. Eur. J. 2022, 28, e202104081."
+scholar_citation_id: "WaHuZvMAAAAJ:YsMSGLbcyi4C"
 ---
 
 Add catalytic mechanism and therapeutic-context notes here.

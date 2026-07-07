@@ -15,6 +15,7 @@ highlights:
   - "Uses black mesoporous titania as an optical energy conversion platform."
   - "Combines photo-thermal and dynamic therapy mechanisms."
 citation: "Meifang Wang et al. Azo Initiator Loaded Black Mesoporous Titania. ACS Appl. Mater. Interfaces 2019, 11, 47730-47738."
+scholar_citation_id: "WaHuZvMAAAAJ:Tyk-4Ss8FVUC"
 ---
 
 Add energy-conversion and therapeutic synergy notes here.

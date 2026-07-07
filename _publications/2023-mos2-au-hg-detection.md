@@ -15,6 +15,7 @@ highlights:
   - "Applies heterojunction nanostructures to environmental electrochemical sensing."
   - "Targets trace Hg(II) detection in wastewater samples."
 citation: "Yuhui Liu et al. MoS2/Au Heterojunction Nanostructures for Electrochemical Detection of Trace Hg(II). J. Environ. Chem. Eng. 2023, 11, 111563."
+scholar_citation_id: "WaHuZvMAAAAJ:MXK_kJrjxJIC"
 ---
 
 Add sensing performance and wastewater-sample validation details here.

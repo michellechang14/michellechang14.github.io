@@ -15,6 +15,7 @@ highlights:
   - "Uses plasmonic CuPt alloy nanostructures for multimode therapy."
   - "Emphasizes closed-loop therapeutic design."
 citation: "Mengyu Chang et al. Dendritic Plasmonic CuPt Alloys for Closed-Loop Multimode Cancer Therapy with Remarkably Enhanced Efficacy. Small 2022, 2206423."
+scholar_citation_id: "WaHuZvMAAAAJ:UeHWp8X0CEIC"
 ---
 
 Add expanded notes about imaging feedback and therapeutic closure here.

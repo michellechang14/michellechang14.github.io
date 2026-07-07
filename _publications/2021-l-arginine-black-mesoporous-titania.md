@@ -15,6 +15,7 @@ highlights:
   - "Combines sonodynamic therapy, gas therapy, and immunotherapy."
   - "Uses black mesoporous titania as a multifunctional nanovaccine platform."
 citation: "Meifang Wang et al. A Multifunctional Nanovaccine Based on L-Arginine-Loaded Black Mesoporous Titania. Small 2021, 17, 2005728."
+scholar_citation_id: "WaHuZvMAAAAJ:_FxGoFyzp5QC"
 ---
 
 Add ultrasound-triggering and immune mechanism notes here.

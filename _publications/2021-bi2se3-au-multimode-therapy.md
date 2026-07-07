@@ -15,6 +15,7 @@ highlights:
   - "Develops a NIR-triggered heterostructure platform."
   - "Supports multi-mode antitumor therapy."
 citation: "Chunzheng Yang et al. NIR-Triggered Multi-Mode Antitumor Therapy Based on Bi2Se3/Au Heterostructure. Small 2021, 17, 2100961."
+scholar_citation_id: "WaHuZvMAAAAJ:u5HHmVD_uO8C"
 ---
 
 Add NIR-triggered treatment modes and efficacy details here.

@@ -15,6 +15,7 @@ highlights:
   - "Combines glucose oxidase-mediated starvation with mild photothermal therapy."
   - "Uses noble-metal nanozyme design to support tumor immunotherapy."
 citation: "Man Wang et al. A Noble AuPtAg-GOx Nanozyme for Synergistic Tumor Immunotherapy. Adv. Sci. 2022, 9, 2202332."
+scholar_citation_id: "WaHuZvMAAAAJ:Se3iqnhoufwC"
 ---
 
 Add starvation therapy and immune activation details here.

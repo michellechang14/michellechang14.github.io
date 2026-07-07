@@ -15,6 +15,7 @@ highlights:
   - "Corresponding-author work in environmental materials."
   - "Studies selective interactions involving uranyl active sites and MoS2."
 citation: "Yuhui Liu et al. Amphiphilic Ligand In Situ Assembly of Uranyl Active Sites and Selective Interactions of Molybdenum Disulfide. J. Hazard. Mater. 2023, 442, 130089."
+scholar_citation_id: "WaHuZvMAAAAJ:hqOjcs7Dif8C"
 ---
 
 Add environmental-remediation context and materials characterization details here.

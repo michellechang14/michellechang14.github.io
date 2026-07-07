@@ -15,6 +15,7 @@ highlights:
   - "Reviews design challenges for photothermal nanomaterials."
   - "Summarizes solution strategies for antitumor photothermal therapy."
 citation: "Mengyu Chang et al. Problems and Solutions of Nanomaterials in Antitumor Photothermal Therapy. Chinese J. Lumin. 2022."
+scholar_citation_id: "WaHuZvMAAAAJ:aqlVkmm33-oC"
 ---
 
 Add bilingual summary or selected figures here if desired.

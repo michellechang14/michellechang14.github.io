@@ -15,6 +15,7 @@ highlights:
   - "Designs a bio-decomposable and metabolizable nanocomposite."
   - "Targets colorectal tumor microenvironment activation."
 citation: "Mengyu Chang et al. Colorectal Tumor Microenvironment-Activated Bio-Decomposable and Metabolizable Cu2O@CaCO3 Nanocomposites for Synergistic Oncotherapy. Adv. Mater. 2020, 32, 2004647."
+scholar_citation_id: "WaHuZvMAAAAJ:u-x6o8ySG0sC"
 ---
 
 Use this page for a concise explanation of tumor microenvironment activation and treatment synergy.

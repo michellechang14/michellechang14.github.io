@@ -15,6 +15,7 @@ highlights:
   - "Improves photoconversion performance in rare-earth nanocrystals."
   - "Supports near-infrared light-triggered anticancer phototherapy."
 citation: "Mengyu Chang et al. Enhanced Photoconversion Performance of NdVO4/Au Nanocrystals. Acta Biomater. 2019, 99, 295-306."
+scholar_citation_id: "WaHuZvMAAAAJ:Y0pCki6q_DkC"
 ---
 
 Add imaging examples and photothermal conversion details here.

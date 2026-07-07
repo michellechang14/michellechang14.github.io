@@ -15,6 +15,7 @@ highlights:
   - "Co-first-authored work on cascade enzymatic cancer therapy."
   - "Combines starvation, chemodynamic, and immune therapeutic modes."
 citation: "Man Wang, Mengyu Chang et al. Tumor-Microenvironment-Activated Reactive Oxygen Species Amplifier. Adv. Mater. 2022, 34, 2106010."
+scholar_citation_id: "WaHuZvMAAAAJ:2osOgNQ5qMEC"
 ---
 
 Add details about ROS amplification and cascade therapy here.

@@ -15,6 +15,7 @@ highlights:
   - "Builds a multifunctional nanoreactor for multimodal cancer treatment."
   - "Integrates metabolic and immune therapeutic mechanisms."
 citation: "Mengyu Chang et al. A Multifunctional Cascade Bioreactor Based on Hollow-Structured Cu2MoS4. Adv. Mater. 2019, 31, 1905271."
+scholar_citation_id: "WaHuZvMAAAAJ:zYLM7Y9cAGgC"
 ---
 
 Add a visual workflow and treatment-model description here when figures are available.

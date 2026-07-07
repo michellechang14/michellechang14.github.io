@@ -15,6 +15,7 @@ highlights:
   - "Uses single-atom Pd nanozyme activity to enhance therapy."
   - "Combines ferroptosis with mild-temperature photothermal treatment."
 citation: "Mengyu Chang et al. Single-Atom Pd Nanozyme for Ferroptosis-Boosted Mild-Temperature Photothermal Therapy. Angew. Chem. Int. Ed. 2021, 60, 12971-12979."
+scholar_citation_id: "WaHuZvMAAAAJ:WF5omc3nYNoC"
 ---
 
 Add expanded notes on nanozyme catalytic behavior, therapeutic mechanism, and preclinical model details here.
