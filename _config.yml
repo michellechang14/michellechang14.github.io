@@ -1,0 +1,30 @@
+title: "Mengyu Chang"
+description: "Academic homepage"
+url: "https://michellechang14.github.io"
+baseurl: ""
+timezone: America/New_York
+
+collections:
+  publications:
+    output: true
+    permalink: /publications/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: publication
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+exclude:
+  - README.md
+  - package.json
+  - scripts/

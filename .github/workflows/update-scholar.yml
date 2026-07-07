@@ -1,0 +1,29 @@
+name: Update Scholar Metrics
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-scholar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Update Scholar data
+        env:
+          SCHOLAR_AUTHOR_ID: WaHuZvMAAAAJ
+          SCHOLAR_PROFILE_URL: https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: npm run update:scholar
+      - name: Commit Scholar data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Scholar metrics"
+          file_pattern: _data/scholar.json

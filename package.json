@@ -1,0 +1,8 @@
+{
+  "name": "michellechang14.github.io",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:scholar": "node scripts/update-scholar.mjs"
+  }
+}

@@ -1,0 +1,13 @@
+<article class="publication-card" data-year="{{ publication.year }}" data-topic="{{ publication.topic | default: '' | downcase }}">
+  <div>
+    <p class="eyebrow">{{ publication.year }} · {{ publication.type | default: 'Publication' }}</p>
+    <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+    <p class="pub-authors">{{ publication.authors }}</p>
+    {% if publication.venue %}<p class="venue">{{ publication.venue }}</p>{% endif %}
+    {% if publication.abstract %}<p>{{ publication.abstract | truncate: 220 }}</p>{% endif %}
+  </div>
+  <div class="pub-actions">
+    <a class="button small" href="{{ publication.url | relative_url }}">Details</a>
+    {% if publication.doi %}<a class="button small ghost" href="https://doi.org/{{ publication.doi }}">DOI</a>{% endif %}
+  </div>
+</article>

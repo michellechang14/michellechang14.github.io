@@ -1,0 +1,79 @@
+{
+  "name": "Mengyu Chang",
+  "title": "Postdoctoral Fellow",
+  "institution": "The University of Texas MD Anderson Cancer Center",
+  "location": "Houston, Texas",
+  "department": "Department of Radiation Oncology",
+  "email": "mchang4@mdanderson.org",
+  "address": "Department of Radiation Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030, USA",
+  "photo": "/assets/img/head.jpg",
+  "googleScholar": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
+  "googleScholarUser": "WaHuZvMAAAAJ",
+  "orcid": "",
+  "github": "https://github.com/michellechang14",
+  "linkedin": "",
+  "cv": "/assets/Mengyu-Chang-CV.pdf",
+  "researchAreas": [
+    "Nanomedicine",
+    "Single-atom nanozymes",
+    "Photothermal and photodynamic therapy",
+    "Cancer immunotherapy",
+    "Photoacoustic and multimodal imaging",
+    "Tumor microenvironment-responsive materials"
+  ],
+  "education": [
+    {
+      "period": "2023.01 - Present",
+      "role": "Postdoctoral Fellow",
+      "institution": "Department of Radiation Oncology, The University of Texas MD Anderson Cancer Center, USA",
+      "supervisor": "Dr. Wen Jiang"
+    },
+    {
+      "period": "2022.02 - 2022.12",
+      "role": "Postdoctoral Fellow",
+      "institution": "School of Chemistry, Chemical Engineering and Biotechnology, Nanyang Technological University, Singapore",
+      "supervisor": "Dr. Yanli Zhao"
+    },
+    {
+      "period": "2021.07 - 2021.12",
+      "role": "Research Assistant",
+      "institution": "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, China",
+      "supervisor": "Dr. Jun Lin"
+    },
+    {
+      "period": "2016.09 - 2021.06",
+      "role": "Ph.D.",
+      "institution": "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, China",
+      "supervisor": "Dr. Jun Lin"
+    },
+    {
+      "period": "2012.09 - 2016.06",
+      "role": "Bachelor",
+      "institution": "College of Chemistry and Chemical Engineering, Hunan Normal University, China",
+      "supervisor": "Dr. Shixun Lian"
+    }
+  ],
+  "skills": [
+    "Construction and synthesis of multifunctional nanomaterials, including rare earth compounds, transition metal chalcogenides, single-atom nanozymes, metal alloys, and metallic oxides.",
+    "Surface modification of nanomaterials by noble metal deposition, in situ mineralization, and macromolecule coating.",
+    "Multimodal imaging-guided anti-tumor therapy, including photothermal, photodynamic, chemodynamic, starvation, ion-interference, ferroptotic, and immunotherapy approaches.",
+    "Cell culture, immunofluorescence, enzyme-linked immunosorbent assay, histological sectioning, small animal injection, anesthesia, blood collection, anatomy, and tissue-derived single-cell suspension preparation.",
+    "Materials characterization with XRD, SEM, TEM, UV-visible spectra, DLS, zeta potential, MSOT inVision 128 photoacoustic imaging, and flow cytometry."
+  ],
+  "awards": [
+    "Prof Lee Soo Ying Young Chemist Award, Gold Award, Singapore National Institute of Chemistry, 2022",
+    "Outstanding Graduate of Anhui Province, 2021",
+    "Outstanding Graduate of University of Science and Technology of China, 2021",
+    "President Award of Chinese Academy of Sciences, 2021",
+    "Excellent Doctoral Dissertation of University of Science and Technology of China, 2021",
+    "National Scholarship, 2020",
+    "School-level Scholarship, 2016-2020",
+    "Excellent Student Cadre, 2018",
+    "Merit Student, 2017"
+  ],
+  "bio": [
+    "Mengyu Chang is a postdoctoral fellow in the Department of Radiation Oncology at The University of Texas MD Anderson Cancer Center.",
+    "Her research focuses on multifunctional nanomaterials for cancer diagnosis and therapy, including single-atom nanozymes, tumor microenvironment-responsive nanocomposites, multimodal imaging-guided therapy, photothermal and photodynamic therapy, ferroptosis-boosted treatment, and cancer immunotherapy.",
+    "Before joining MD Anderson, she was a postdoctoral fellow at Nanyang Technological University and completed her Ph.D. at the Changchun Institute of Applied Chemistry, Chinese Academy of Sciences."
+  ]
+}

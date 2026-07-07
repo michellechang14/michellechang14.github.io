@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="publication-page">
+  <a class="back-link" href="{{ '/publications/' | relative_url }}">Back to publications</a>
+  <p class="eyebrow">{{ page.type | default: 'Publication' }}{% if page.venue %} · {{ page.venue }}{% endif %}</p>
+  <h1>{{ page.title }}</h1>
+  <p class="pub-authors">{{ page.authors }}</p>
+
+  <div class="pub-actions">
+    {% if page.doi %}<a class="button" href="https://doi.org/{{ page.doi }}">DOI</a>{% endif %}
+    {% if page.paper %}<a class="button" href="{{ page.paper }}">Paper</a>{% endif %}
+    {% if page.code %}<a class="button" href="{{ page.code }}">Code</a>{% endif %}
+    {% if page.slides %}<a class="button" href="{{ page.slides }}">Slides</a>{% endif %}
+  </div>
+
+  {% if page.abstract %}
+  <section class="section compact">
+    <h2>Abstract</h2>
+    <p>{{ page.abstract }}</p>
+  </section>
+  {% endif %}
+
+  {% if page.highlights %}
+  <section class="section compact">
+    <h2>Highlights</h2>
+    <ul class="clean-list">
+      {% for item in page.highlights %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section class="section compact prose">
+    {{ content }}
+  </section>
+
+  {% if page.citation %}
+  <section class="section compact">
+    <h2>Citation</h2>
+    <pre class="citation">{{ page.citation }}</pre>
+  </section>
+  {% endif %}
+</article>

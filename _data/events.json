@@ -1,0 +1,18 @@
+[
+  {
+    "date": "2026-09-14",
+    "title": "Conference or invited talk title",
+    "venue": "Conference / Institution",
+    "location": "City, Country",
+    "url": "",
+    "type": "Talk"
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Poster presentation title",
+    "venue": "Annual Meeting",
+    "location": "City, Country",
+    "url": "",
+    "type": "Poster"
+  }
+]
