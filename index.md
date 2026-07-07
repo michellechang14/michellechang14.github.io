@@ -97,11 +97,7 @@ title: Home
       {% assign wordcloud_path = '/assets/img/wordmap/wordcloud_s.png' %}
       {% assign wordcloud_image = site.static_files | where: 'path', wordcloud_path | first %}
       <a class="text-link" href="{{ '/scholar/' | relative_url }}"><span data-lang="en">View citation tracker</span><span data-lang="zh">查看引用追踪</span></a>
-      {% if wordcloud_image %}
-      <figure class="scholar-wordcloud">
-        <img src="{{ wordcloud_path | relative_url }}" alt="Research keyword word cloud">
-      </figure>
-      {% endif %}
+
     </div>
   </aside>
 
