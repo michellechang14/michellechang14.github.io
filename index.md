@@ -30,9 +30,10 @@ title: Home
     </ul>
 
     <div class="sidebar-actions">
-      <a class="button small ghost" href="{{ profile.googleScholar }}">Google Scholar</a>
-      <a class="button small ghost" href="{{ profile.cv | relative_url }}">CV</a>
-      <a class="button small ghost" href="mailto:{{ profile.email }}"><span data-lang="en">Email</span><span data-lang="zh">邮件</span></a>
+      <a class="button small ghost" href="{{ profile.googleScholar }}"><span class="button-icon" aria-hidden="true">🎓</span>Google Scholar</a>
+      <a class="button small ghost" href="{{ profile.cv | relative_url }}"><span class="button-icon" aria-hidden="true">📄</span>CV</a>
+      <a class="button small ghost" href="{{ profile.linkedin }}"><span class="button-icon" aria-hidden="true">💼</span>LinkedIn</a>
+      <a class="button small ghost" href="mailto:{{ profile.email }}"><span class="button-icon" aria-hidden="true">✉️</span><span data-lang="en">Email</span><span data-lang="zh">邮件</span></a>
     </div>
 
     <div class="sidebar-scholar" aria-label="Google Scholar metrics">
@@ -93,7 +94,14 @@ title: Home
           <div class="chart-empty"><span data-lang="en">Waiting for Scholar history.</span><span data-lang="zh">等待 Scholar 年度数据。</span></div>
         {% endif %}
       </div>
+      {% assign wordcloud_path = '/assets/img/wordmap/wordcloud_xs.png' %}
+      {% assign wordcloud_image = site.static_files | where: 'path', wordcloud_path | first %}
       <a class="text-link" href="{{ '/scholar/' | relative_url }}"><span data-lang="en">View citation tracker</span><span data-lang="zh">查看引用追踪</span></a>
+      {% if wordcloud_image %}
+      <figure class="scholar-wordcloud">
+        <img src="{{ wordcloud_path | relative_url }}" alt="Research keyword word cloud">
+      </figure>
+      {% endif %}
     </div>
   </aside>
 

@@ -1,9 +1,9 @@
-<article class="publication-card" data-year="{{ publication.year }}" data-topic="{{ publication.topic | default: '' | downcase }}">
+<article class="publication-card" data-year="{{ publication.year }}" data-topic="{{ publication.topic | default: '' | downcase }}" data-venue="{{ publication.venue | default: 'Publication' | escape }}">
   <div>
     <p class="eyebrow">{{ publication.year }} · {{ publication.type | default: 'Publication' }}</p>
     <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
-    <p class="pub-authors">{{ publication.authors }}</p>
-    {% if publication.venue %}<p class="venue">{{ publication.venue }}</p>{% endif %}
+    <p class="pub-authors">{% include highlight-author.html authors=publication.authors %}</p>
+    {% if publication.venue %}<p class="venue"><strong>{{ publication.venue }}</strong></p>{% endif %}
     {% if publication.abstract %}<p>{{ publication.abstract | truncate: 220 }}</p>{% endif %}
   </div>
   <div class="pub-actions">

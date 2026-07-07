@@ -30,6 +30,7 @@ jobs:
           SCHOLAR_AUTHOR_ID: WaHuZvMAAAAJ
           SCHOLAR_PROFILE_URL: https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en
           SERPAPI_MAX_CITED_BY_LOOKUPS: 2
+          SERPAPI_MAX_ABSTRACT_LOOKUPS: 2
           SCHOLAR_PUBLICATIONS_BOOTSTRAP: ${{ github.event.inputs.bootstrap_publications || 'false' }}
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY || secrets.GOOGLESCHOLARAPI }}
         run: npm run update:scholar

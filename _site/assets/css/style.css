@@ -276,9 +276,9 @@ main {
 .button.ghost,
 .button.small.ghost,
 .filter-button {
-  background: transparent;
-  border-color: var(--line);
-  color: var(--ink);
+  background: var(--year-bg, transparent);
+  border-color: var(--year-border, var(--line));
+  color: var(--year-fg, var(--ink));
 }
 
 .button.small {
@@ -287,10 +287,16 @@ main {
   font-size: 0.88rem;
 }
 
+.button-icon {
+  margin-right: 6px;
+  line-height: 1;
+}
+
 .filter-button.active {
-  background: var(--accent-dark);
-  border-color: var(--accent-dark);
-  color: #fff;
+  background: var(--year-bg, var(--accent-dark));
+  border-color: var(--year-border, var(--accent-dark));
+  color: var(--year-fg, #fff);
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.04);
 }
 
 .academic-content {
@@ -497,6 +503,76 @@ h3 {
   color: #fff;
 }
 
+.badge.nature-cancer {
+  background: #f4e6ee;
+  color: #843d63;
+}
+
+.badge.nature-comm {
+  background: #dff0ff;
+  color: #1e5f8a;
+}
+
+.badge.nature-nano {
+  background: #e4f8f1;
+  color: #276f5d;
+}
+
+.badge.science {
+  background: #e7efff;
+  color: #274c9a;
+}
+
+.badge.cell {
+  background: #ffe8e2;
+  color: #94402d;
+}
+
+.badge.advanced-materials {
+  background: #fff0c9;
+  color: #7f5c08;
+}
+
+.badge.acs-nano {
+  background: #eaf6ff;
+  color: #27658d;
+}
+
+.badge.angew {
+  background: #efe9ff;
+  color: #5f4797;
+}
+
+.badge.jacs {
+  background: #e8f5f7;
+  color: #2d6f78;
+}
+
+.badge.small-journal {
+  background: #edf7df;
+  color: #557528;
+}
+
+.badge.biomaterials {
+  background: #f2ecfb;
+  color: #68458d;
+}
+
+.badge.nano-today {
+  background: #e9f7f4;
+  color: #317265;
+}
+
+.badge.acs-ami {
+  background: #f8eee6;
+  color: #855b37;
+}
+
+.badge.cej {
+  background: #e8f4ec;
+  color: #356f4d;
+}
+
 .badge.update {
   background: #eaf0ea;
   color: #596f5d;
@@ -516,8 +592,24 @@ h3 {
   padding: 28px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: var(--panel);
+  background: var(--research-bg, var(--panel));
+  border-color: var(--research-border, var(--line));
   box-shadow: 0 8px 24px rgba(26, 45, 51, 0.06);
+}
+
+.research-thread-1 {
+  --research-bg: #f2f8fd;
+  --research-border: #cfe4f4;
+}
+
+.research-thread-2 {
+  --research-bg: #f4faf0;
+  --research-border: #d5e8c5;
+}
+
+.research-thread-3 {
+  --research-bg: #fff7ec;
+  --research-border: #edd8b4;
 }
 
 .thread-icon {
@@ -617,12 +709,18 @@ h3 {
   gap: 16px;
 }
 
+.filters + .publication-list {
+  margin-top: 18px;
+}
+
 .publication-card {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 20px;
   align-items: start;
   padding: 22px;
+  background: var(--publication-bg, var(--panel));
+  border-color: var(--publication-border, var(--line));
 }
 
 .publication-card .pub-actions {
@@ -728,6 +826,21 @@ h3 {
   font-size: 0.9rem;
 }
 
+.scholar-wordcloud {
+  margin: 16px 0 14px;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.scholar-wordcloud img {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+}
+
 .timeline {
   gap: 12px;
 }
@@ -778,6 +891,11 @@ h3 {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
+}
+
+.award-list li {
+  background: var(--award-bg, var(--panel));
+  border-color: var(--award-border, var(--line));
 }
 
 .citation-item {

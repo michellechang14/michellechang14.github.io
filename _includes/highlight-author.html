@@ -1,0 +1,10 @@
+{{ include.authors
+  | replace: 'Mengyu Chang', '<strong>Mengyu Chang</strong>'
+  | replace: 'M. Chang', '<strong>M. Chang</strong>'
+  | replace: 'M Chang', '<strong>M Chang</strong>'
+  | replace: 'Chang M.', '<strong>Chang M.</strong>'
+  | replace: 'Chang M', '<strong>Chang M</strong>'
+  | replace: 'Chang, Mengyu', '<strong>Chang, Mengyu</strong>'
+  | replace: 'Chang, M.', '<strong>Chang, M.</strong>'
+  | replace: 'Chang, M', '<strong>Chang, M</strong>'
+}}

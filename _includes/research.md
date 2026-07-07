@@ -2,7 +2,7 @@
   <h2><span data-lang="en">Research</span><span data-lang="zh">研究方向</span></h2>
   <p class="section-lead"><span data-lang="en">Her research builds therapeutic nanomaterials that sense the tumor microenvironment, convert external energy into therapeutic effects, and coordinate multiple treatment pathways.</span><span data-lang="zh">她的研究构建能够感知肿瘤微环境、将外部能量转化为治疗效应并协同多种治疗通路的纳米治疗材料。</span></p>
   <div class="research-thread-list">
-    <article class="research-thread">
+    <article class="research-thread research-thread-1">
       <div class="thread-icon">01</div>
       <div>
         <p class="thread-label"><span data-lang="en">Thread 01</span><span data-lang="zh">方向 01</span></p>
@@ -10,7 +10,7 @@
         <p><span data-lang="en">Designing atomically dispersed catalytic sites to regulate reactive oxygen species, metabolism, ferroptosis, and mild photothermal therapeutic response.</span><span data-lang="zh">设计原子级分散的催化位点，用于调控活性氧、细胞代谢、铁死亡以及温和光热治疗响应。</span></p>
       </div>
     </article>
-    <article class="research-thread">
+    <article class="research-thread research-thread-2">
       <div class="thread-icon">02</div>
       <div>
         <p class="thread-label"><span data-lang="en">Thread 02</span><span data-lang="zh">方向 02</span></p>
@@ -18,7 +18,7 @@
         <p><span data-lang="en">Constructing photothermal, photodynamic, photoacoustic, and multimodal imaging platforms for precise cancer therapy under near-infrared activation.</span><span data-lang="zh">构建光热、光动力、光声和多模态影像平台，在近红外激发下实现精准肿瘤治疗。</span></p>
       </div>
     </article>
-    <article class="research-thread">
+    <article class="research-thread research-thread-3">
       <div class="thread-icon">03</div>
       <div>
         <p class="thread-label"><span data-lang="en">Thread 03</span><span data-lang="zh">方向 03</span></p>

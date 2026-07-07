@@ -12,6 +12,7 @@ const profileUrl =
   `https://scholar.google.com/citations?user=${authorId}&hl=en`;
 const serpApiKey = process.env.SERPAPI_API_KEY;
 const maxCitedByLookups = Math.max(0, Number(process.env.SERPAPI_MAX_CITED_BY_LOOKUPS || 2));
+const maxAbstractLookups = Math.max(0, Number(process.env.SERPAPI_MAX_ABSTRACT_LOOKUPS || 2));
 
 const nextScholar = {
   ...scholar,
@@ -38,7 +39,8 @@ if (serpApiKey) {
   nextScholar.citationHistory = normalizeCitationGraph(authorMetrics.cited_by?.graph || []);
   nextScholar.knownScholarArticles = await updateNewsFromScholarArticles(authorMetrics.articles || [], scholar.knownScholarArticles || []);
   await autoCreatePublicationsFromScholarArticles(authorMetrics.articles || []);
-  await autoPopulateScholarCitesIds(authorMetrics.articles || []);
+  await autoPopulateScholarIds(authorMetrics.articles || []);
+  await autoPopulateAbstracts(authorMetrics.articles || [], serpApiKey, maxAbstractLookups);
   nextScholar.recentCitations = await collectRecentCitations(serpApiKey, maxCitedByLookups);
 } else {
   console.warn("SERPAPI_API_KEY is not set. Keeping existing citation metrics and recent citations.");
@@ -97,6 +99,7 @@ function normalizeScholarArticles(articles) {
       publication: cleanText(article.publication || article.journal || ""),
       authors: cleanText(article.authors || ""),
       link: article.link || "",
+      citationId: extractCitationId(article),
       citedById: extractCitesId(article)
     }))
     .filter((article) => article.title);
@@ -169,9 +172,6 @@ function uniquePublicationFilename(article, existingFiles) {
 function formatPublicationMarkdown(article) {
   const type = isConferenceVenue(article.publication) ? "Conference Paper" : "Journal Article";
   const topic = isNatureFamily(article.publication) ? "Nature family publication" : "Google Scholar import";
-  const abstract = article.publication
-    ? `Imported from Google Scholar. This publication appears in ${article.publication}.`
-    : "Imported from Google Scholar. Add an abstract or project summary here.";
 
   return `---
 title: "${escapeYaml(article.title)}"
@@ -184,14 +184,13 @@ doi: ""
 paper: "${escapeYaml(article.link || "")}"
 code: ""
 slides: ""
+scholar_citation_id: "${escapeYaml(article.citationId || "")}"
 scholar_cites_id: "${escapeYaml(article.citedById || "")}"
-abstract: "${escapeYaml(abstract)}"
-highlights:
-  - "Imported automatically from Google Scholar."
+abstract: ""
 citation: ""
 ---
 
-This page was generated automatically from Google Scholar. Add a full abstract, highlights, images, and related links when available.
+Metadata for this publication was imported from Google Scholar. A full abstract and additional links will be added when available.
 `;
 }
 
@@ -205,9 +204,9 @@ function escapeYaml(value = "") {
   return String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"');
 }
 
-async function autoPopulateScholarCitesIds(articles) {
+async function autoPopulateScholarIds(articles) {
   const { readdir, readFile, writeFile } = await import("node:fs/promises");
-  const scholarArticles = normalizeScholarArticles(articles).filter((article) => article.citedById);
+  const scholarArticles = normalizeScholarArticles(articles).filter((article) => article.citedById || article.citationId);
   const scholarByTitle = new Map(scholarArticles.map((article) => [normalizeTitle(article.title), article]));
   const files = (await readdir(PUBLICATIONS_PATH)).filter((file) => file.endsWith(".md"));
   let updatedCount = 0;
@@ -220,21 +219,87 @@ async function autoPopulateScholarCitesIds(articles) {
 
     const frontMatter = frontMatterMatch[1];
     const data = parseFrontMatter(frontMatter);
-    if (!data.title || (data.scholar_cites_id || "").trim()) continue;
+    if (!data.title) continue;
 
     const scholarArticle = findScholarArticleForPublication(data.title, scholarByTitle, scholarArticles);
-    if (!scholarArticle?.citedById) continue;
+    if (!scholarArticle) continue;
 
-    const nextFrontMatter = frontMatter.match(/^scholar_cites_id:/m)
-      ? frontMatter.replace(/^scholar_cites_id:\s*.*$/m, `scholar_cites_id: "${scholarArticle.citedById}"`)
-      : `${frontMatter}\nscholar_cites_id: "${scholarArticle.citedById}"`;
+    let nextFrontMatter = frontMatter;
+    if (scholarArticle.citationId && !(data.scholar_citation_id || "").trim()) {
+      nextFrontMatter = nextFrontMatter.match(/^scholar_citation_id:/m)
+        ? nextFrontMatter.replace(/^scholar_citation_id:\s*.*$/m, `scholar_citation_id: "${scholarArticle.citationId}"`)
+        : `${nextFrontMatter}\nscholar_citation_id: "${scholarArticle.citationId}"`;
+    }
+    if (scholarArticle.citedById && !(data.scholar_cites_id || "").trim()) {
+      nextFrontMatter = nextFrontMatter.match(/^scholar_cites_id:/m)
+        ? nextFrontMatter.replace(/^scholar_cites_id:\s*.*$/m, `scholar_cites_id: "${scholarArticle.citedById}"`)
+        : `${nextFrontMatter}\nscholar_cites_id: "${scholarArticle.citedById}"`;
+    }
+    if (nextFrontMatter === frontMatter) continue;
     const nextText = text.replace(frontMatter, nextFrontMatter);
     await writeFile(fileUrl, nextText);
     updatedCount += 1;
   }
 
   if (updatedCount > 0) {
-    console.log(`Populated scholar_cites_id for ${updatedCount} publication(s).`);
+    console.log(`Populated Scholar IDs for ${updatedCount} publication(s).`);
+  }
+}
+
+async function autoPopulateAbstracts(articles, apiKey, maxLookups) {
+  const { readdir, readFile, writeFile } = await import("node:fs/promises");
+  const scholarArticles = normalizeScholarArticles(articles).filter((article) => article.citationId);
+  const scholarByTitle = new Map(scholarArticles.map((article) => [normalizeTitle(article.title), article]));
+  const files = (await readdir(PUBLICATIONS_PATH)).filter((file) => file.endsWith(".md"));
+  let lookupCount = 0;
+  let updatedCount = 0;
+
+  for (const file of files) {
+    if (lookupCount >= maxLookups) {
+      console.log(`Reached SERPAPI_MAX_ABSTRACT_LOOKUPS=${maxLookups}; skipping remaining abstract lookups.`);
+      break;
+    }
+
+    const fileUrl = new URL(file, PUBLICATIONS_PATH);
+    const text = await readFile(fileUrl, "utf8");
+    const frontMatterMatch = text.match(/^---\n([\s\S]*?)\n---/);
+    if (!frontMatterMatch) continue;
+
+    const frontMatter = frontMatterMatch[1];
+    const data = parseFrontMatter(frontMatter);
+    if (!data.title || (data.abstract || "").trim()) continue;
+
+    const scholarArticle = data.scholar_citation_id
+      ? { citationId: data.scholar_citation_id }
+      : findScholarArticleForPublication(data.title, scholarByTitle, scholarArticles);
+    if (!scholarArticle?.citationId) continue;
+
+    lookupCount += 1;
+    const citationDetails = await fetchSerpApi({
+      engine: "google_scholar_author",
+      author_id: authorId,
+      view_op: "view_citation",
+      citation_id: scholarArticle.citationId,
+      api_key: apiKey
+    });
+    const description = cleanText(
+      citationDetails.citation?.description ||
+      citationDetails.article?.description ||
+      citationDetails.description ||
+      ""
+    );
+    if (!description) continue;
+
+    const nextFrontMatter = frontMatter.match(/^abstract:/m)
+      ? frontMatter.replace(/^abstract:\s*.*$/m, `abstract: "${escapeYaml(description)}"`)
+      : `${frontMatter}\nabstract: "${escapeYaml(description)}"`;
+    const nextText = text.replace(frontMatter, nextFrontMatter);
+    await writeFile(fileUrl, nextText);
+    updatedCount += 1;
+  }
+
+  if (updatedCount > 0) {
+    console.log(`Populated abstracts for ${updatedCount} publication(s).`);
   }
 }
 
@@ -273,6 +338,19 @@ function extractCitesId(article) {
   return "";
 }
 
+function extractCitationId(article) {
+  const directValue = article.citation_id || article.citationId;
+  if (directValue) return String(directValue);
+
+  const links = [article.link, article.serpapi_link].filter(Boolean);
+  for (const link of links) {
+    const match = String(link).match(/[?&]citation_for_view=([^&]+)/);
+    if (match) return decodeURIComponent(match[1]);
+  }
+
+  return "";
+}
+
 function normalizeCitationGraph(graph) {
   return graph
     .map((point) => ({
@@ -304,8 +382,32 @@ function tagsForArticle(article) {
   } else if (article.publication) {
     tags.push({ label: "JOURNAL", className: "journal" });
   }
-  if (isNatureFamily(article.publication)) tags.push({ label: "NATURE", className: "nature" });
+  tags.push(...prestigeJournalTags(article.publication));
   return tags;
+}
+
+function prestigeJournalTags(publication = "") {
+  const normalized = publication.toLowerCase();
+  const journalTags = [
+    { pattern: /\bnature communications\b/, label: "NATURE COMM", className: "nature-comm" },
+    { pattern: /\bnature nanotechnology\b/, label: "NATURE NANO", className: "nature-nano" },
+    { pattern: /\bnature cancer\b/, label: "NATURE CANCER", className: "nature-cancer" },
+    { pattern: /\bnature\b/, label: "NATURE", className: "nature" },
+    { pattern: /\bscience\b/, label: "SCIENCE", className: "science" },
+    { pattern: /\bcell\b/, label: "CELL", className: "cell" },
+    { pattern: /\badvanced materials\b|\badv\.?\s+mater/i, label: "ADV MATER", className: "advanced-materials" },
+    { pattern: /\bacs nano\b/i, label: "ACS NANO", className: "acs-nano" },
+    { pattern: /\bangewandte\b|\bangew\.?\s+chem/i, label: "ANGEW", className: "angew" },
+    { pattern: /\bjacs\b|journal of the american chemical society/i, label: "JACS", className: "jacs" },
+    { pattern: /\bsmall\b/i, label: "SMALL", className: "small-journal" },
+    { pattern: /\bbiomaterials\b/i, label: "BIOMATERIALS", className: "biomaterials" },
+    { pattern: /\bnano today\b/i, label: "NANO TODAY", className: "nano-today" },
+    { pattern: /\bacs applied materials\b|\bacs appl/i, label: "ACS AMI", className: "acs-ami" },
+    { pattern: /\bchemical engineering journal\b/i, label: "CEJ", className: "cej" }
+  ];
+
+  const match = journalTags.find((tag) => tag.pattern.test(normalized));
+  return match ? [{ label: match.label, className: match.className }] : [];
 }
 
 function isConferenceVenue(publication = "") {
