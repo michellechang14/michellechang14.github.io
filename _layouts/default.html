@@ -9,15 +9,16 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-        <span class="brand-mark">MC</span>
-        <span>{{ site.title }}</span>
-      </a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#biography">Biography</a>
+        <a href="{{ '/' | relative_url }}#news">News</a>
         <a href="{{ '/' | relative_url }}#research">Research</a>
         <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/' | relative_url }}#events">Events</a>
+        <a href="{{ '/' | relative_url }}#education">Education</a>
+        <a href="{{ '/' | relative_url }}#honors">Honors</a>
         <a href="{{ '/scholar/' | relative_url }}">Scholar</a>
+        <a href="{{ '/' | relative_url }}#contact">Contact</a>
       </nav>
     </header>
 
@@ -26,7 +27,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}. Built with Jekyll and GitHub Pages.</p>
+      <p>© {{ site.time | date: '%Y' }} {{ site.data.profile.name }}</p>
     </footer>
     <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
   </body>

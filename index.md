@@ -1,137 +1,105 @@
-﻿---
+---
+layout: default
 title: Home
 ---
 
 {% assign profile = site.data.profile %}
+{% assign sorted_publications = site.publications | sort: 'year' | reverse %}
 
-<section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">{{ profile.title }} · {{ profile.institution }}</p>
+<div class="academic-layout">
+  <aside class="academic-sidebar" id="contact">
+    <img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name }} portrait">
     <h1>{{ profile.name }}</h1>
-    <p class="lede">{{ profile.bio[0] }}</p>
-    <div class="hero-actions">
-      <a class="button" href="{{ '/publications/' | relative_url }}">View Publications</a>
-      <a class="button ghost" href="{{ profile.googleScholar }}">Google Scholar</a>
-      <a class="button ghost" href="{{ profile.cv | relative_url }}">CV</a>
-      <a class="button ghost" href="mailto:{{ profile.email }}">Email</a>
+    <p class="sidebar-title">{{ profile.title }}</p>
+    <p class="sidebar-department">{{ profile.department }}</p>
+
+    <div class="institution-card">
+      <strong>MD Anderson</strong>
+      <span>Cancer Center</span>
     </div>
-  </div>
-  <aside class="profile-panel" aria-label="Profile summary">
-    <img src="{{ profile.photo | relative_url }}" alt="{{ profile.name }} portrait">
-    <dl>
-      <div><dt>Role</dt><dd>{{ profile.title }}</dd></div>
-      <div><dt>Institution</dt><dd>{{ profile.institution }}</dd></div>
-      <div><dt>Department</dt><dd>{{ profile.department }}</dd></div>
-      <div><dt>Location</dt><dd>{{ profile.location }}</dd></div>
-    </dl>
+
+    <p class="tagline">Multifunctional nanomaterials for imaging-guided cancer therapy and immunotherapy.</p>
+
+    <ul class="contact-list">
+      <li><span>Email</span><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
+      <li><span>Office</span>{{ profile.location }}</li>
+      <li><span>Dept.</span>{{ profile.department }}</li>
+    </ul>
+
+    <div class="sidebar-actions">
+      <a class="button small ghost" href="{{ profile.googleScholar }}">Google Scholar</a>
+      <a class="button small ghost" href="{{ profile.cv | relative_url }}">CV</a>
+      <a class="button small ghost" href="mailto:{{ profile.email }}">Email</a>
+    </div>
+
+    <div class="sidebar-scholar" aria-label="Google Scholar metrics">
+      <div class="sidebar-section-title">Google Scholar</div>
+      <p>Updated by the scheduled Scholar workflow.</p>
+      <div class="metrics vertical">
+        <div><span>{{ site.data.scholar.totalCitations | default: 'Pending' }}</span><small>Citations</small></div>
+        <div><span>{{ site.data.scholar.hIndex | default: 'Pending' }}</span><small>h-index</small></div>
+        <div><span>{{ site.data.scholar.i10Index | default: 'Pending' }}</span><small>i10-index</small></div>
+      </div>
+      {% assign citation_history = site.data.scholar.citationHistory %}
+      <div class="citation-chart" aria-label="Cumulative citations by year">
+        <div class="chart-title">Citations by year</div>
+        {% if citation_history and citation_history.size > 0 %}
+          {% assign max_citations = 0 %}
+          {% for point in citation_history %}
+            {% if point.citations > max_citations %}
+              {% assign max_citations = point.citations %}
+            {% endif %}
+          {% endfor %}
+          {% if max_citations < 1 %}
+            {% assign max_citations = 1 %}
+          {% endif %}
+          {% assign chart_width = 210 %}
+          {% assign chart_height = 84 %}
+          {% assign plot_left = 8 %}
+          {% assign plot_top = 8 %}
+          {% assign plot_width = 194 %}
+          {% assign plot_height = 58 %}
+          {% assign point_count = citation_history.size %}
+          {% assign denominator = point_count | minus: 1 %}
+          {% if denominator < 1 %}
+            {% assign denominator = 1 %}
+          {% endif %}
+          {% capture chart_points %}
+            {% for point in citation_history %}
+              {% assign x = forloop.index0 | times: plot_width | divided_by: denominator | plus: plot_left %}
+              {% assign scaled_y = point.citations | times: plot_height | divided_by: max_citations %}
+              {% assign y = plot_top | plus: plot_height | minus: scaled_y %}
+              {{ x }},{{ y }}
+            {% endfor %}
+          {% endcapture %}
+          <svg viewBox="0 0 {{ chart_width }} {{ chart_height }}" role="img" aria-labelledby="citation-chart-title">
+            <title id="citation-chart-title">Cumulative citations by year</title>
+            <line x1="{{ plot_left }}" y1="{{ plot_top | plus: plot_height }}" x2="{{ plot_left | plus: plot_width }}" y2="{{ plot_top | plus: plot_height }}" />
+            <polyline points="{{ chart_points | strip_newlines }}" />
+            {% for point in citation_history %}
+              {% assign x = forloop.index0 | times: plot_width | divided_by: denominator | plus: plot_left %}
+              {% assign scaled_y = point.citations | times: plot_height | divided_by: max_citations %}
+              {% assign y = plot_top | plus: plot_height | minus: scaled_y %}
+              <circle cx="{{ x }}" cy="{{ y }}" r="2.5" />
+            {% endfor %}
+            <text x="{{ plot_left }}" y="82">{{ citation_history.first.year }}</text>
+            <text x="{{ plot_left | plus: plot_width }}" y="82" text-anchor="end">{{ citation_history.last.year }}</text>
+            <text x="{{ plot_left }}" y="8">{{ max_citations }}</text>
+          </svg>
+        {% else %}
+          <div class="chart-empty">Waiting for Scholar history.</div>
+        {% endif %}
+      </div>
+      <a class="text-link" href="{{ '/scholar/' | relative_url }}">View citation tracker</a>
+    </div>
   </aside>
-</section>
 
-<section class="section" id="research">
-  <div class="section-heading">
-    <p class="eyebrow">Research</p>
-    <h2>Research Interests</h2>
+  <div class="academic-content">
+    {% include biography.md %}
+    {% include news-section.md %}
+    {% include research.md %}
+    {% include publications-home.md %}
+    {% include education.md %}
+    {% include honors.md %}
   </div>
-  <div class="topic-grid">
-    {% for area in profile.researchAreas %}
-    <div class="topic">{{ area }}</div>
-    {% endfor %}
-  </div>
-  <div class="prose">
-    {% for paragraph in profile.bio offset:1 %}
-    <p>{{ paragraph }}</p>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section" id="experience">
-  <div class="section-heading">
-    <p class="eyebrow">Training</p>
-    <h2>Education and Appointments</h2>
-  </div>
-  <div class="timeline">
-    {% for item in profile.education %}
-    <article class="event">
-      <time>{{ item.period }}</time>
-      <div>
-        <h3>{{ item.role }}</h3>
-        <p>{{ item.institution }}</p>
-        {% if item.supervisor %}<p class="venue">Supervisor: {{ item.supervisor }}</p>{% endif %}
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-heading">
-    <p class="eyebrow">Expertise</p>
-    <h2>Professional Skills</h2>
-  </div>
-  <ul class="skill-list">
-    {% for skill in profile.skills %}
-    <li>{{ skill }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="section">
-  <div class="section-heading inline">
-    <div>
-      <p class="eyebrow">Selected Work</p>
-      <h2>Recent Publications</h2>
-    </div>
-    <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications</a>
-  </div>
-  <div class="publication-list">
-    {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
-    {% for publication in sorted_publications limit:3 %}
-      {% include publication-card.html publication=publication %}
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section">
-  <div class="section-heading">
-    <p class="eyebrow">Recognition</p>
-    <h2>Honors and Awards</h2>
-  </div>
-  <ul class="award-list">
-    {% for award in profile.awards %}
-    <li>{{ award }}</li>
-    {% endfor %}
-  </ul>
-</section>
-
-<section class="section scholar-strip">
-  <div>
-    <p class="eyebrow">Live Metrics</p>
-    <h2>Google Scholar</h2>
-    <p>Updated by the scheduled Scholar workflow when credentials are configured.</p>
-  </div>
-  <div class="metrics">
-    <div><span>{{ site.data.scholar.totalCitations | default: 'Pending' }}</span><small>Citations</small></div>
-    <div><span>{{ site.data.scholar.hIndex | default: 'Pending' }}</span><small>h-index</small></div>
-    <div><span>{{ site.data.scholar.i10Index | default: 'Pending' }}</span><small>i10-index</small></div>
-  </div>
-</section>
-
-<section class="section" id="events">
-  <div class="section-heading">
-    <p class="eyebrow">Calendar</p>
-    <h2>Upcoming Conferences and Talks</h2>
-  </div>
-  <div class="timeline">
-    {% assign events = site.data.events | sort: 'date' %}
-    {% for event in events %}
-    <article class="event">
-      <time datetime="{{ event.date }}">{{ event.date | date: "%b %-d, %Y" }}</time>
-      <div>
-        <h3>{% if event.url %}<a href="{{ event.url }}">{{ event.title }}</a>{% else %}{{ event.title }}{% endif %}</h3>
-        <p>{{ event.type }} · {{ event.venue }} · {{ event.location }}</p>
-      </div>
-    </article>
-    {% endfor %}
-  </div>
-</section>
-
+</div>

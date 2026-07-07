@@ -1,6 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const DATA_PATH = new URL("../_data/scholar.json", import.meta.url);
+const NEWS_PATH = new URL("../_includes/news.md", import.meta.url);
 const PUBLICATIONS_PATH = new URL("../_publications/", import.meta.url);
 
 const scholar = JSON.parse(await readFile(DATA_PATH, "utf8"));
@@ -10,6 +11,7 @@ const profileUrl =
   scholar.profileUrl ||
   `https://scholar.google.com/citations?user=${authorId}&hl=en`;
 const serpApiKey = process.env.SERPAPI_API_KEY;
+const maxCitedByLookups = Math.max(0, Number(process.env.SERPAPI_MAX_CITED_BY_LOOKUPS || 2));
 
 const nextScholar = {
   ...scholar,
@@ -32,7 +34,9 @@ if (serpApiKey) {
   nextScholar.totalCitations = numberOrNull(citedBy?.all);
   nextScholar.hIndex = numberOrNull(hIndex?.all);
   nextScholar.i10Index = numberOrNull(i10Index?.all);
-  nextScholar.recentCitations = await collectRecentCitations(serpApiKey);
+  nextScholar.citationHistory = normalizeCitationGraph(authorMetrics.cited_by?.graph || []);
+  nextScholar.knownScholarArticles = await updateNewsFromScholarArticles(authorMetrics.articles || [], scholar.knownScholarArticles || []);
+  nextScholar.recentCitations = await collectRecentCitations(serpApiKey, maxCitedByLookups);
 } else {
   console.warn("SERPAPI_API_KEY is not set. Keeping existing citation metrics and recent citations.");
   try {
@@ -52,12 +56,133 @@ if (serpApiKey) {
 
 await writeFile(DATA_PATH, `${JSON.stringify(nextScholar, null, 2)}\n`);
 
-async function collectRecentCitations(apiKey) {
+async function updateNewsFromScholarArticles(articles, knownArticles) {
+  const normalizedKnown = new Set(knownArticles.map((article) => normalizeTitle(article.title || article)));
+  const currentArticles = normalizeScholarArticles(articles);
+  const currentTitles = currentArticles.map((article) => ({
+    title: article.title,
+    year: article.year,
+    publication: article.publication,
+    link: article.link
+  }));
+
+  if (knownArticles.length === 0 && process.env.SCHOLAR_NEWS_BOOTSTRAP !== "true") {
+    console.log("Initialized Scholar article baseline without adding historical news.");
+    return currentTitles;
+  }
+
+  const newArticles = currentArticles
+    .filter((article) => !normalizedKnown.has(normalizeTitle(article.title)))
+    .sort((a, b) => (b.year || 0) - (a.year || 0))
+    .slice(0, 6);
+
+  if (newArticles.length > 0) {
+    const existingNews = await readFile(NEWS_PATH, "utf8");
+    const newsEntries = newArticles.map(formatScholarNewsEntry).join("\n\n");
+    await writeFile(NEWS_PATH, `${newsEntries}\n\n${existingNews}`);
+    console.log(`Added ${newArticles.length} Scholar article(s) to news.md.`);
+  }
+
+  return mergeKnownArticles(currentTitles, knownArticles);
+}
+
+function normalizeScholarArticles(articles) {
+  return articles
+    .map((article) => ({
+      title: cleanText(article.title || ""),
+      year: Number(article.year) || extractYear(article.publication) || null,
+      publication: cleanText(article.publication || article.journal || ""),
+      link: article.link || ""
+    }))
+    .filter((article) => article.title);
+}
+
+function normalizeCitationGraph(graph) {
+  return graph
+    .map((point) => ({
+      year: Number(point.year),
+      citations: numberOrNull(point.citations)
+    }))
+    .filter((point) => Number.isFinite(point.year) && Number.isFinite(point.citations))
+    .sort((a, b) => a.year - b.year);
+}
+
+function formatScholarNewsEntry(article) {
+  const tags = tagsForArticle(article);
+  const tagMarkup = tags.map((tag) => `<span class="badge ${tag.className}">${tag.label}</span>`).join("");
+  const venue = article.publication ? ` appeared in <strong>${escapeHtml(article.publication)}</strong>` : " appeared on Google Scholar";
+  const linkedTitle = article.link
+    ? `<a href="${escapeHtml(article.link)}"><em>${escapeHtml(article.title)}</em></a>`
+    : `<em>${escapeHtml(article.title)}</em>`;
+
+  return `<article class="news-item">
+  <time>${escapeHtml(article.year || new Date().getFullYear())}</time>
+  <p>${tagMarkup} ${linkedTitle}${venue}.</p>
+</article>`;
+}
+
+function tagsForArticle(article) {
+  const tags = [{ label: "PAPER", className: "paper" }];
+  if (isConferenceVenue(article.publication)) {
+    tags.push({ label: "CONFERENCE", className: "conference" });
+  } else if (article.publication) {
+    tags.push({ label: "JOURNAL", className: "journal" });
+  }
+  if (isNatureFamily(article.publication)) tags.push({ label: "NATURE", className: "nature" });
+  return tags;
+}
+
+function isConferenceVenue(publication = "") {
+  return /\b(conference|proceedings|symposium|workshop|meeting|congress)\b/i.test(publication);
+}
+
+function isNatureFamily(publication = "") {
+  return /\bnature\b/i.test(publication);
+}
+
+function mergeKnownArticles(currentArticles, knownArticles) {
+  const merged = [];
+  const seen = new Set();
+
+  for (const article of [...currentArticles, ...knownArticles]) {
+    const normalized = normalizeTitle(article.title || article);
+    if (!normalized || seen.has(normalized)) continue;
+    seen.add(normalized);
+    merged.push(typeof article === "string" ? { title: article } : article);
+  }
+
+  return merged.slice(0, 200);
+}
+
+function normalizeTitle(title = "") {
+  return cleanText(title).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+function cleanText(value = "") {
+  return String(value).replace(/\s+/g, " ").trim();
+}
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+async function collectRecentCitations(apiKey, maxLookups) {
   const publications = await readPublicationFrontMatter();
   const collected = [];
+  let lookupCount = 0;
 
   for (const publication of publications) {
     if (!publication.scholar_cites_id) continue;
+    if (lookupCount >= maxLookups) {
+      console.log(`Reached SERPAPI_MAX_CITED_BY_LOOKUPS=${maxLookups}; skipping remaining cited-by lookups.`);
+      break;
+    }
+    lookupCount += 1;
     const result = await fetchSerpApi({
       engine: "google_scholar",
       cites: publication.scholar_cites_id,
