@@ -1,7 +1,7 @@
 <section class="content-section" id="publications">
   <div class="section-row">
-    <h2>Publications</h2>
-    <a class="text-link" href="{{ '/publications/' | relative_url }}">Full list</a>
+    <h2><span data-lang="en">Publications</span><span data-lang="zh">代表论文</span></h2>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}"><span data-lang="en">Full list</span><span data-lang="zh">完整列表</span></a>
   </div>
   <div class="publication-compact-list">
     {% for publication in sorted_publications limit:8 %}

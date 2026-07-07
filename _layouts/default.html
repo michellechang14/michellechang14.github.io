@@ -11,14 +11,15 @@
     <header class="site-header">
       <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">{{ site.title }}</a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}#biography">Biography</a>
-        <a href="{{ '/' | relative_url }}#news">News</a>
-        <a href="{{ '/' | relative_url }}#research">Research</a>
-        <a href="{{ '/publications/' | relative_url }}">Publications</a>
-        <a href="{{ '/' | relative_url }}#education">Education</a>
-        <a href="{{ '/' | relative_url }}#honors">Honors</a>
+        <a href="{{ '/' | relative_url }}#biography"><span data-lang="en">Biography</span><span data-lang="zh">简介</span></a>
+        <a href="{{ '/' | relative_url }}#news"><span data-lang="en">News</span><span data-lang="zh">动态</span></a>
+        <a href="{{ '/' | relative_url }}#research"><span data-lang="en">Research</span><span data-lang="zh">研究</span></a>
+        <a href="{{ '/publications/' | relative_url }}"><span data-lang="en">Publications</span><span data-lang="zh">论文</span></a>
+        <a href="{{ '/' | relative_url }}#education"><span data-lang="en">Education</span><span data-lang="zh">经历</span></a>
+        <a href="{{ '/' | relative_url }}#honors"><span data-lang="en">Honors</span><span data-lang="zh">荣誉</span></a>
         <a href="{{ '/scholar/' | relative_url }}">Scholar</a>
-        <a href="{{ '/' | relative_url }}#contact">Contact</a>
+        <a href="{{ '/' | relative_url }}#contact"><span data-lang="en">Contact</span><span data-lang="zh">联系</span></a>
+        <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
       </nav>
     </header>
 

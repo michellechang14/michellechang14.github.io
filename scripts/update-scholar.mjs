@@ -24,6 +24,7 @@ if (serpApiKey) {
   const authorMetrics = await fetchSerpApi({
     engine: "google_scholar_author",
     author_id: authorId,
+    num: "100",
     api_key: serpApiKey
   });
 
@@ -36,6 +37,8 @@ if (serpApiKey) {
   nextScholar.i10Index = numberOrNull(i10Index?.all);
   nextScholar.citationHistory = normalizeCitationGraph(authorMetrics.cited_by?.graph || []);
   nextScholar.knownScholarArticles = await updateNewsFromScholarArticles(authorMetrics.articles || [], scholar.knownScholarArticles || []);
+  await autoCreatePublicationsFromScholarArticles(authorMetrics.articles || []);
+  await autoPopulateScholarCitesIds(authorMetrics.articles || []);
   nextScholar.recentCitations = await collectRecentCitations(serpApiKey, maxCitedByLookups);
 } else {
   console.warn("SERPAPI_API_KEY is not set. Keeping existing citation metrics and recent citations.");
@@ -92,9 +95,182 @@ function normalizeScholarArticles(articles) {
       title: cleanText(article.title || ""),
       year: Number(article.year) || extractYear(article.publication) || null,
       publication: cleanText(article.publication || article.journal || ""),
-      link: article.link || ""
+      authors: cleanText(article.authors || ""),
+      link: article.link || "",
+      citedById: extractCitesId(article)
     }))
     .filter((article) => article.title);
+}
+
+async function autoCreatePublicationsFromScholarArticles(articles) {
+  const { readdir, readFile, writeFile } = await import("node:fs/promises");
+  const scholarArticles = normalizeScholarArticles(articles).filter((article) => article.year);
+  const files = (await readdir(PUBLICATIONS_PATH)).filter((file) => file.endsWith(".md"));
+  const localPublications = [];
+
+  for (const file of files) {
+    const text = await readFile(new URL(file, PUBLICATIONS_PATH), "utf8");
+    const frontMatterMatch = text.match(/^---\n([\s\S]*?)\n---/);
+    if (!frontMatterMatch) continue;
+    localPublications.push({
+      file,
+      ...parseFrontMatter(frontMatterMatch[1])
+    });
+  }
+
+  const localByTitle = new Map(
+    localPublications
+      .filter((publication) => publication.title)
+      .map((publication) => [normalizeTitle(publication.title), publication])
+  );
+  const latestLocalYear = Math.max(
+    0,
+    ...localPublications.map((publication) => Number(publication.year) || 0)
+  );
+  const currentYear = new Date().getFullYear();
+  let createdCount = 0;
+
+  for (const article of scholarArticles.sort((a, b) => (b.year || 0) - (a.year || 0))) {
+    if (findScholarArticleForPublication(article.title, localByTitle, localPublications)) continue;
+
+    const shouldCreate =
+      process.env.SCHOLAR_PUBLICATIONS_BOOTSTRAP === "true" ||
+      article.year > latestLocalYear ||
+      article.year >= currentYear - 1;
+    if (!shouldCreate) continue;
+
+    const filename = uniquePublicationFilename(article, new Set(files));
+    const fileUrl = new URL(filename, PUBLICATIONS_PATH);
+    await writeFile(fileUrl, formatPublicationMarkdown(article));
+    files.push(filename);
+    localByTitle.set(normalizeTitle(article.title), { file: filename, title: article.title, year: article.year });
+    createdCount += 1;
+  }
+
+  if (createdCount > 0) {
+    console.log(`Created ${createdCount} publication page(s) from Google Scholar.`);
+  }
+}
+
+function uniquePublicationFilename(article, existingFiles) {
+  const year = article.year || new Date().getFullYear();
+  const baseSlug = slugify(article.title).slice(0, 72) || "scholar-publication";
+  let filename = `${year}-${baseSlug}.md`;
+  let index = 2;
+
+  while (existingFiles.has(filename)) {
+    filename = `${year}-${baseSlug}-${index}.md`;
+    index += 1;
+  }
+
+  return filename;
+}
+
+function formatPublicationMarkdown(article) {
+  const type = isConferenceVenue(article.publication) ? "Conference Paper" : "Journal Article";
+  const topic = isNatureFamily(article.publication) ? "Nature family publication" : "Google Scholar import";
+  const abstract = article.publication
+    ? `Imported from Google Scholar. This publication appears in ${article.publication}.`
+    : "Imported from Google Scholar. Add an abstract or project summary here.";
+
+  return `---
+title: "${escapeYaml(article.title)}"
+authors: "${escapeYaml(article.authors || "Mengyu Chang")}"
+year: ${article.year || new Date().getFullYear()}
+venue: "${escapeYaml(article.publication || "Google Scholar")}"
+type: "${type}"
+topic: "${topic}"
+doi: ""
+paper: "${escapeYaml(article.link || "")}"
+code: ""
+slides: ""
+scholar_cites_id: "${escapeYaml(article.citedById || "")}"
+abstract: "${escapeYaml(abstract)}"
+highlights:
+  - "Imported automatically from Google Scholar."
+citation: ""
+---
+
+This page was generated automatically from Google Scholar. Add a full abstract, highlights, images, and related links when available.
+`;
+}
+
+function slugify(value = "") {
+  return normalizeTitle(value)
+    .replace(/\s+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function escapeYaml(value = "") {
+  return String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"');
+}
+
+async function autoPopulateScholarCitesIds(articles) {
+  const { readdir, readFile, writeFile } = await import("node:fs/promises");
+  const scholarArticles = normalizeScholarArticles(articles).filter((article) => article.citedById);
+  const scholarByTitle = new Map(scholarArticles.map((article) => [normalizeTitle(article.title), article]));
+  const files = (await readdir(PUBLICATIONS_PATH)).filter((file) => file.endsWith(".md"));
+  let updatedCount = 0;
+
+  for (const file of files) {
+    const fileUrl = new URL(file, PUBLICATIONS_PATH);
+    const text = await readFile(fileUrl, "utf8");
+    const frontMatterMatch = text.match(/^---\n([\s\S]*?)\n---/);
+    if (!frontMatterMatch) continue;
+
+    const frontMatter = frontMatterMatch[1];
+    const data = parseFrontMatter(frontMatter);
+    if (!data.title || (data.scholar_cites_id || "").trim()) continue;
+
+    const scholarArticle = findScholarArticleForPublication(data.title, scholarByTitle, scholarArticles);
+    if (!scholarArticle?.citedById) continue;
+
+    const nextFrontMatter = frontMatter.match(/^scholar_cites_id:/m)
+      ? frontMatter.replace(/^scholar_cites_id:\s*.*$/m, `scholar_cites_id: "${scholarArticle.citedById}"`)
+      : `${frontMatter}\nscholar_cites_id: "${scholarArticle.citedById}"`;
+    const nextText = text.replace(frontMatter, nextFrontMatter);
+    await writeFile(fileUrl, nextText);
+    updatedCount += 1;
+  }
+
+  if (updatedCount > 0) {
+    console.log(`Populated scholar_cites_id for ${updatedCount} publication(s).`);
+  }
+}
+
+function findScholarArticleForPublication(title, scholarByTitle, scholarArticles) {
+  const normalizedTitle = normalizeTitle(title);
+  if (scholarByTitle.has(normalizedTitle)) return scholarByTitle.get(normalizedTitle);
+
+  return scholarArticles.find((article) => {
+    const normalizedArticleTitle = normalizeTitle(article.title);
+    return (
+      normalizedArticleTitle.length > 24 &&
+      (normalizedArticleTitle.includes(normalizedTitle) || normalizedTitle.includes(normalizedArticleTitle))
+    );
+  });
+}
+
+function extractCitesId(article) {
+  const directValue =
+    article.cites_id ||
+    article.cited_by?.cites_id ||
+    article.cited_by?.cites;
+  if (directValue) return String(directValue);
+
+  const links = [
+    article.cited_by?.link,
+    article.cited_by?.serpapi_link,
+    article.cited_by?.serpapi_scholar_link,
+    article.cited_by?.serpapi_cites_link
+  ].filter(Boolean);
+
+  for (const link of links) {
+    const match = String(link).match(/[?&]cites=([^&]+)/);
+    if (match) return decodeURIComponent(match[1]);
+  }
+
+  return "";
 }
 
 function normalizeCitationGraph(graph) {
@@ -172,7 +348,7 @@ function escapeHtml(value = "") {
 }
 
 async function collectRecentCitations(apiKey, maxLookups) {
-  const publications = await readPublicationFrontMatter();
+  const publications = (await readPublicationFrontMatter()).sort((a, b) => (Number(b.year) || 0) - (Number(a.year) || 0));
   const collected = [];
   let lookupCount = 0;
 

@@ -33,12 +33,14 @@ Edit `_data/events.json`. Items are sorted by date on the homepage.
 
 Google Scholar does not provide an official public API. The updater supports two modes:
 
-1. With `SERPAPI_API_KEY` configured as a GitHub repository secret, it fetches profile metrics, citation history by year, watches the Scholar author article list, and can gather recent citing papers for publications with `scholar_cites_id`.
+1. With `SERPAPI_API_KEY` configured as a GitHub repository secret, it fetches profile metrics, citation history by year, watches the Scholar author article list, creates new publication pages for newly detected papers, and can gather recent citing papers for publications with `scholar_cites_id`.
 2. Without that secret, it attempts a lightweight profile fetch for citation totals, but recent citing papers are left unchanged because direct Scholar scraping is unreliable and can be blocked.
 
 The first SerpAPI-backed run initializes `_data/scholar.json` with known Scholar article titles and does not add historical papers to News. After that, any newly detected Scholar article is prepended to `_includes/news.md` automatically. To intentionally add existing Scholar articles during the first run, set `SCHOLAR_NEWS_BOOTSTRAP=true` in the workflow environment.
 
-The workflow is configured for a low SerpAPI budget. It runs once per day, which is about 30 scheduled runs per month. Each run always uses one author-profile lookup, and `SERPAPI_MAX_CITED_BY_LOOKUPS=2` limits extra cited-by searches to at most two publications per run. With the current schedule, the normal upper bound is about 90 SerpAPI requests per month, plus any manual workflow runs.
+The workflow is configured for a low SerpAPI budget. It runs once per day, which is about 30 scheduled runs per month. Each run always uses one author-profile lookup, and the same response is used to automatically create `_publications/*.md` pages for Scholar articles newer than the local publication list and to fill empty `scholar_cites_id` fields by matching Scholar article titles. `SERPAPI_MAX_CITED_BY_LOOKUPS=2` limits extra cited-by searches to at most two publications per run. With the current schedule, the normal upper bound is about 90 SerpAPI requests per month, plus any manual workflow runs.
+
+By default, historical Scholar articles are not bulk-imported unless they are newer than the local publication list. To intentionally import all unmatched Scholar articles, manually run the `Update Scholar Metrics` workflow and set `Import all unmatched Scholar publications once` to `true`.
 
 News items can use multiple tags:
 

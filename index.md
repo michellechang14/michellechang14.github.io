@@ -18,31 +18,34 @@ title: Home
       <span>Cancer Center</span>
     </div>
 
-    <p class="tagline">Multifunctional nanomaterials for imaging-guided cancer therapy and immunotherapy.</p>
+    <p class="tagline">
+      <span data-lang="en">Multifunctional nanomaterials for imaging-guided cancer therapy and immunotherapy.</span>
+      <span data-lang="zh">面向影像引导肿瘤治疗与免疫治疗的多功能纳米材料。</span>
+    </p>
 
     <ul class="contact-list">
-      <li><span>Email</span><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
-      <li><span>Office</span>{{ profile.location }}</li>
-      <li><span>Dept.</span>{{ profile.department }}</li>
+      <li><span class="contact-icon" aria-label="Email">✉️</span><a href="mailto:{{ profile.email }}">{{ profile.email }}</a></li>
+      <li><span class="contact-icon" aria-label="Location">📍</span>{{ profile.location }}</li>
+      <li><span class="contact-icon" aria-label="Department">🏥</span>{{ profile.department }}</li>
     </ul>
 
     <div class="sidebar-actions">
       <a class="button small ghost" href="{{ profile.googleScholar }}">Google Scholar</a>
       <a class="button small ghost" href="{{ profile.cv | relative_url }}">CV</a>
-      <a class="button small ghost" href="mailto:{{ profile.email }}">Email</a>
+      <a class="button small ghost" href="mailto:{{ profile.email }}"><span data-lang="en">Email</span><span data-lang="zh">邮件</span></a>
     </div>
 
     <div class="sidebar-scholar" aria-label="Google Scholar metrics">
       <div class="sidebar-section-title">Google Scholar</div>
-      <p>Updated by the scheduled Scholar workflow.</p>
+      <p><span data-lang="en">Updated by the scheduled Scholar workflow.</span><span data-lang="zh">由定时 Scholar 工作流自动更新。</span></p>
       <div class="metrics vertical">
-        <div><span>{{ site.data.scholar.totalCitations | default: 'Pending' }}</span><small>Citations</small></div>
+        <div><span>{{ site.data.scholar.totalCitations | default: 'Pending' }}</span><small><span data-lang="en">Citations</span><span data-lang="zh">引用</span></small></div>
         <div><span>{{ site.data.scholar.hIndex | default: 'Pending' }}</span><small>h-index</small></div>
         <div><span>{{ site.data.scholar.i10Index | default: 'Pending' }}</span><small>i10-index</small></div>
       </div>
       {% assign citation_history = site.data.scholar.citationHistory %}
       <div class="citation-chart" aria-label="Cumulative citations by year">
-        <div class="chart-title">Citations by year</div>
+        <div class="chart-title"><span data-lang="en">Citations by year</span><span data-lang="zh">年度引用量</span></div>
         {% if citation_history and citation_history.size > 0 %}
           {% assign max_citations = 0 %}
           {% for point in citation_history %}
@@ -87,10 +90,10 @@ title: Home
             <text x="{{ plot_left }}" y="8">{{ max_citations }}</text>
           </svg>
         {% else %}
-          <div class="chart-empty">Waiting for Scholar history.</div>
+          <div class="chart-empty"><span data-lang="en">Waiting for Scholar history.</span><span data-lang="zh">等待 Scholar 年度数据。</span></div>
         {% endif %}
       </div>
-      <a class="text-link" href="{{ '/scholar/' | relative_url }}">View citation tracker</a>
+      <a class="text-link" href="{{ '/scholar/' | relative_url }}"><span data-lang="en">View citation tracker</span><span data-lang="zh">查看引用追踪</span></a>
     </div>
   </aside>
 
