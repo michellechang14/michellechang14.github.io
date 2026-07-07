@@ -21,7 +21,7 @@ jobs:
           SCHOLAR_AUTHOR_ID: WaHuZvMAAAAJ
           SCHOLAR_PROFILE_URL: https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en
           SERPAPI_MAX_CITED_BY_LOOKUPS: 2
-          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY || secrets.GOOGLESCHOLARAPI }}
         run: npm run update:scholar
       - name: Commit Scholar data
         uses: stefanzweifel/git-auto-commit-action@v5
