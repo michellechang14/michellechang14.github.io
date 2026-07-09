@@ -11,7 +11,7 @@ code: ""
 slides: ""
 scholar_citation_id: "WaHuZvMAAAAJ:ULOm3_A8WrAC"
 scholar_cites_id: "2697927919589521618"
-abstract: ""
+abstract: "Photothermal therapy (PTT) has a great prospect in further improving tumor therapeutic outcomes, whereas its efficiency is restrained by low light penetration, excessive heat damage to normal tissues, up‐regulated heat shock proteins (HSPs), and limited effect of single treatment. Herein, an enzyme‐engineered coppery nanozyme based on dendritic mesoporous coppery carbon nanosphere as the cornerstone to load with glucose oxidase (GOx) followed by modification with hyaluronic acid is constructed. Density functional theory calculations indicate that the obtained coppery nanozyme exhibits peroxidase and glutathione oxidase mimicking activities to improve hydroxyl radicals (•OH) production. Furthermore, both the generation of •OH production and GOx‐induced energy supply blockade can reduce HSPs expression to enhance the mild PTT (η = 34.9 %) of coppery nanozyme upon the irradiation of 1064 nm …"
 citation: ""
 ---
 
