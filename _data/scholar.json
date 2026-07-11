@@ -2,18 +2,18 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-10T12:08:48.812Z",
-  "totalCitations": 4659,
+  "lastUpdated": "2026-07-11T10:34:30.561Z",
+  "totalCitations": 4662,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
     {
       "year": 2019,
-      "citations": 25
+      "citations": 24
     },
     {
       "year": 2020,
-      "citations": 138
+      "citations": 140
     },
     {
       "year": 2021,
@@ -21,23 +21,23 @@
     },
     {
       "year": 2022,
-      "citations": 724
+      "citations": 723
     },
     {
       "year": 2023,
-      "citations": 849
+      "citations": 848
     },
     {
       "year": 2024,
-      "citations": 998
+      "citations": 999
     },
     {
       "year": 2025,
-      "citations": 1018
+      "citations": 1016
     },
     {
       "year": 2026,
-      "citations": 480
+      "citations": 485
     }
   ],
   "knownScholarArticles": [
@@ -168,16 +168,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
     },
     {
-      "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
-      "year": 2024,
-      "publication": "Chemical Engineering Journal 481, 148388, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:KlAtU1dfN6UC"
-    },
-    {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
       "year": 2024,
       "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
+      "year": 2024,
+      "publication": "Chemical Engineering Journal 481, 148388, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:KlAtU1dfN6UC"
     },
     {
       "title": "NADPH oxidase‐like nanozyme for high‐efficiency tumor therapy through increasing glutathione consumption and blocking glutathione regeneration",

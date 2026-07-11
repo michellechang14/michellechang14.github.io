@@ -11,7 +11,7 @@ code: ""
 slides: ""
 scholar_citation_id: "WaHuZvMAAAAJ:Wp0gIr-vW9MC"
 scholar_cites_id: ""
-abstract: ""
+abstract: "METHODS: A microfluidic electroporation technique utilizing nano-and milli-second pulses was employed to efficiently load exosomes with interferon-gamma (IFN-γ) mRNA, resulting in the production of a substantial quantity of mRNA-loaded exosomes. To enable targeted delivery, CD64 molecules were overexpressed on the surface of these exosomes, acting as adaptors for docking targeting ligands, such as anti-CD71 and anti-programmed cell death-ligand 1 (PD-L1) antibodies. RESULTS: The engineered imExo successfully increased IFN-γ expression in GBM, which upregulated major histocompatibility complex I (MHC-I) in the tumor microenvironment, thereby enhancing the anti-tumor effect and increased the survival time of mice in both GBM models. Specifically, the treatment led to a significant increase in CD8+ T cells and MHC-I expression within the tumor microenvironment, indicating restored …"
 citation: ""
 ---
 

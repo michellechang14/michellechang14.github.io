@@ -11,7 +11,7 @@ code: ""
 slides: ""
 scholar_citation_id: "WaHuZvMAAAAJ:4TOpqqG69KYC"
 scholar_cites_id: "12963446726114917261"
-abstract: ""
+abstract: "Intracellular DNA sensors regulate innate immunity and can provide a bridge to adaptive immunogenicity. However, the activation of the sensors in antigen-presenting cells (APCs) by natural agonists such as double-stranded DNAs or cyclic nucleotides is impeded by poor intracellular delivery, serum stability, enzymatic degradation and rapid systemic clearance. Here we show that the hydrophobicity, electrostatic charge and secondary conformation of helical polypeptides can be optimized to stimulate innate immune pathways via endoplasmic reticulum stress in APCs. One of the three polypeptides that we engineered activated two major intracellular DNA-sensing pathways (cGAS–STING (for cyclic guanosine monophosphate–adenosine monophosphate synthase–stimulator of interferon genes) and Toll-like receptor 9) preferentially in APCs by promoting the release of mitochondrial DNA, which led to the efficient …"
 citation: ""
 ---
 
