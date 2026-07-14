@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-13T12:17:06.285Z",
-  "totalCitations": 4662,
+  "lastUpdated": "2026-07-14T10:56:17.122Z",
+  "totalCitations": 4665,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 485
+      "citations": 488
     }
   ],
   "knownScholarArticles": [
@@ -162,16 +162,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
-      "year": 2024,
-      "publication": "Advanced Materials 36 (5), 2308774, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
-    },
-    {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
       "year": 2024,
       "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
+      "year": 2024,
+      "publication": "Advanced Materials 36 (5), 2308774, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
     },
     {
       "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
