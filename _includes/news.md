@@ -1,4 +1,9 @@
 <article class="news-item">
+  <time>2019</time>
+  <p><span class="badge paper">PAPER</span><span class="badge journal">JOURNAL</span> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=WaHuZvMAAAAJ&amp;pagesize=100&amp;citation_for_view=WaHuZvMAAAAJ:ufrVoPGSRksC"><em>Self-assembled CeVO4/Ag nanohybrid as photoconversion agents with enhanced solar-driven photocatalysis and NIR-responsive photothermal/photodynamic …</em></a> appeared in <strong>Nanoscale 11 (20), 10129-10136, 2019</strong>.</p>
+</article>
+
+<article class="news-item">
   <time>2026</time>
   <p><span class="badge paper">PAPER</span><span class="badge journal">JOURNAL</span><span class="badge nature-comm">NATURE COMM</span> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=WaHuZvMAAAAJ&amp;pagesize=100&amp;citation_for_view=WaHuZvMAAAAJ:dhFuZR0502QC"><em>Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma</em></a> appeared in <strong>Nature Communications, 2026</strong>.</p>
 </article>

@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-16T11:12:48.519Z",
-  "totalCitations": 4666,
+  "lastUpdated": "2026-07-17T10:58:03.441Z",
+  "totalCitations": 4677,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -25,7 +25,7 @@
     },
     {
       "year": 2023,
-      "citations": 848
+      "citations": 849
     },
     {
       "year": 2024,
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1015
+      "citations": 1016
     },
     {
       "year": 2026,
-      "citations": 489
+      "citations": 498
     }
   ],
   "knownScholarArticles": [
@@ -132,7 +132,7 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:IjCSPb-OGe4C"
     },
     {
-      "title": "Self-assembled CeVO 4/Ag nanohybrid as photoconversion agents with enhanced solar-driven photocatalysis and NIR-responsive photothermal/photodynamic synergistic therapy performance",
+      "title": "Self-assembled CeVO4/Ag nanohybrid as photoconversion agents with enhanced solar-driven photocatalysis and NIR-responsive photothermal/photodynamic …",
       "year": 2019,
       "publication": "Nanoscale 11 (20), 10129-10136, 2019",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ufrVoPGSRksC"
@@ -258,16 +258,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qxL8FJ1GzNcC"
     },
     {
-      "title": "Frontispiece: Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy.",
-      "year": 2022,
-      "publication": "Chemistry-A European Journal 28 (15), 2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qjMakFHDy7sC"
-    },
-    {
       "title": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma",
       "year": 2026,
       "publication": "Nature communications 17 (1), 3709, 2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "title": "Frontispiece: Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy.",
+      "year": 2022,
+      "publication": "Chemistry-A European Journal 28 (15), 2022",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qjMakFHDy7sC"
     },
     {
       "title": "206 Engineering MRNA-Loaded Immunogenic Exosomes for Targeted Glioblastoma Immunotherapy",
@@ -280,6 +280,12 @@
       "year": null,
       "publication": "Available at SSRN 4570440, 0",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "title": "Self-assembled CeVO 4/Ag nanohybrid as photoconversion agents with enhanced solar-driven photocatalysis and NIR-responsive photothermal/photodynamic synergistic therapy performance",
+      "year": 2019,
+      "publication": "Nanoscale 11 (20), 10129-10136, 2019",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ufrVoPGSRksC"
     }
   ],
   "recentCitations": [
@@ -318,9 +324,9 @@
     {
       "title": "Stimuli-responsive nanoplatforms for central nervous system disorders: integrating delivery, modulation, and imaging",
       "authors": "Y Chen, Y Ding, H Lin, J Shi",
-      "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society …, 2026 - Royal Society of Chemistry",
+      "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
       "year": 2026,
-      "url": "",
+      "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {

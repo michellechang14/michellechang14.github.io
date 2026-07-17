@@ -10,7 +10,7 @@ paper: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wa
 code: ""
 slides: ""
 scholar_citation_id: "WaHuZvMAAAAJ:dhFuZR0502QC"
-scholar_cites_id: ""
+scholar_cites_id: "3493828582953972874"
 abstract: "Macrophage-mediated phagocytosis of tumor cells elicits potent antitumor immunity. Nonetheless, sole-blockade of the anti-phagocytosis molecule CD47 has yielded insufficient therapeutic outcomes. Here, we report that glioblastoma (GBM) cells expressed abundant levels of phagocytosis checkpoint CD24. We further show that dual blockade of CD24 and CD47 synergistically enhances the pro-phagocytic activity of macrophages, thereby improving tumor antigen cross-presentation and activating the cyclic GMP-AMP synthase–stimulator of interferon genes (cGAS-STING) pathway. This innate immune activation facilitates T cell infiltration into tumors and sensitizes tumors to anti-PD1 therapy, improving survival outcomes in murine GBM models, including immunosuppressive tumors reflecting human GBM-like features. Thus, our results indicate that dual-phagocytosis checkpoint blockade offers a promising …"
 citation: ""
 ---

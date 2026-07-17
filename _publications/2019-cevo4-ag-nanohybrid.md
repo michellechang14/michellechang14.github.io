@@ -9,12 +9,13 @@ doi: "10.1039/c9nr02412c"
 paper: ""
 code: ""
 slides: ""
-scholar_cites_id: ""
+scholar_cites_id: "14208251103452801075"
 abstract: "Self-assembled CeVO4/Ag nanohybrids for enhanced photocatalysis and NIR-responsive synergistic therapy."
 highlights:
   - "Combines solar-driven photocatalysis with NIR-responsive therapy."
   - "Uses self-assembled CeVO4/Ag nanohybrids as photoconversion agents."
 citation: "Mengyu Chang et al. Self-assembled CeVO4/Ag Nanohybrid as Photoconversion Agents. Nanoscale 2019, 11, 10129."
+scholar_citation_id: "WaHuZvMAAAAJ:ufrVoPGSRksC"
 ---
 
 Add materials synthesis and therapy-performance details here.
