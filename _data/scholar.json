@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-17T10:58:03.441Z",
+  "lastUpdated": "2026-07-18T10:41:08.263Z",
   "totalCitations": 4677,
   "hIndex": 27,
   "i10Index": 33,
@@ -290,6 +290,14 @@
   ],
   "recentCitations": [
     {
+      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
+      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
+      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
+    },
+    {
       "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
       "authors": "M Mohammadnejad, M Haddad",
       "venue": "M Mohammadnejad, M Haddad… - Analytical …, 2026 - ACS Publications",
@@ -359,14 +367,6 @@
       "venue": "Z Zhang, Y Qin, RPK Muthuramalingam… - ACS Nano …, 2026 - ACS Publications",
       "year": 2026,
       "url": "https://pubs.acs.org/doi/abs/10.1021/acsnanomed.5c00180",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Artificial intelligence agents in healthcare research: A scoping review",
-      "authors": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng",
-      "venue": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng… - Plos one, 2026 - journals.plos.org",
-      "year": 2026,
-      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342182",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
