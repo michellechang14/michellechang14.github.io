@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-19T10:42:58.800Z",
-  "totalCitations": 4677,
+  "lastUpdated": "2026-07-20T11:58:32.786Z",
+  "totalCitations": 4685,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -29,15 +29,15 @@
     },
     {
       "year": 2024,
-      "citations": 1000
+      "citations": 999
     },
     {
       "year": 2025,
-      "citations": 1016
+      "citations": 1018
     },
     {
       "year": 2026,
-      "citations": 499
+      "citations": 506
     }
   ],
   "knownScholarArticles": [
@@ -240,16 +240,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:kNdYIx-mwKoC"
     },
     {
-      "title": "Amphiphilic ligand in situ assembly of uranyl active sites and selective interactions of molybdenum disulfide",
-      "year": 2023,
-      "publication": "Journal of Hazardous Materials 442, 130089, 2023",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:hqOjcs7Dif8C"
-    },
-    {
       "title": "Problems and solutions of nanomaterials in antitumor photothermal therapy",
       "year": 2022,
       "publication": "Chinese Journal of Luminescence 43 (7), 995-1013, 2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "title": "Amphiphilic ligand in situ assembly of uranyl active sites and selective interactions of molybdenum disulfide",
+      "year": 2023,
+      "publication": "Journal of Hazardous Materials 442, 130089, 2023",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:hqOjcs7Dif8C"
     },
     {
       "title": "A synthetic cationic helical polypeptide as a multipotent innate immune activator for cancer immunotherapy",
@@ -289,14 +289,6 @@
     }
   ],
   "recentCitations": [
-    {
-      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
-      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
-      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
-      "year": 2026,
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
     {
       "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
       "authors": "M Mohammadnejad, M Haddad",
@@ -367,6 +359,14 @@
       "venue": "Z Zhang, Y Qin, RPK Muthuramalingam… - ACS Nano …, 2026 - ACS Publications",
       "year": 2026,
       "url": "https://pubs.acs.org/doi/abs/10.1021/acsnanomed.5c00180",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Artificial intelligence agents in healthcare research: A scoping review",
+      "authors": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng",
+      "venue": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng… - Plos one, 2026 - journals.plos.org",
+      "year": 2026,
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342182",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
