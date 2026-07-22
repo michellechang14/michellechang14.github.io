@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-21T11:18:34.339Z",
-  "totalCitations": 4685,
+  "lastUpdated": "2026-07-22T11:19:53.672Z",
+  "totalCitations": 4686,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1018
+      "citations": 1016
     },
     {
       "year": 2026,
-      "citations": 506
+      "citations": 509
     }
   ],
   "knownScholarArticles": [
@@ -198,16 +198,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:5nxA0vEk-isC"
     },
     {
-      "title": "Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy",
-      "year": 2022,
-      "publication": "Chemistry–A European Journal 28 (15), e202104081, 2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:YsMSGLbcyi4C"
-    },
-    {
       "title": "Synthetic cationic helical polypeptides for the stimulation of antitumour innate immune pathways in antigen-presenting cells",
       "year": 2024,
       "publication": "Nature biomedical engineering 8 (5), 593-610, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy",
+      "year": 2022,
+      "publication": "Chemistry–A European Journal 28 (15), e202104081, 2022",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:YsMSGLbcyi4C"
     },
     {
       "title": "Dendritic plasmonic CuPt alloys for closed‐loop multimode cancer therapy with remarkably enhanced efficacy",
