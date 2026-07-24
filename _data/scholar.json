@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-23T11:20:05.600Z",
-  "totalCitations": 4686,
+  "lastUpdated": "2026-07-24T11:12:31.021Z",
+  "totalCitations": 4690,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1016
+      "citations": 1015
     },
     {
       "year": 2026,
-      "citations": 509
+      "citations": 514
     }
   ],
   "knownScholarArticles": [
@@ -162,16 +162,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
-      "year": 2024,
-      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
-    },
-    {
       "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
       "year": 2024,
       "publication": "Advanced Materials 36 (5), 2308774, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
+      "year": 2024,
+      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
     },
     {
       "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
@@ -298,11 +298,75 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
-      "title": "AI-driven biomaterial design: an intelligent closed loop from reverse design to biological response",
-      "authors": "M Liu, Y Zhou, X Mei, Z Yu, B Guan, Y Xiao",
-      "venue": "M Liu, Y Zhou, X Mei, Z Yu, B Guan, Y Xiao… - Frontiers in Cell and …, 2025 - frontiersin.org",
-      "year": 2025,
-      "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2025.1755565/full",
+      "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
+      "authors": "M Mohammadnejad, M Haddad",
+      "venue": "M Mohammadnejad, M Haddad… - Analytical …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acs.analchem.5c08235",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Unveiling the Structural and Mechanical Diversity of SARS-CoV-2 Variants Using Atomic Force Microscopy",
+      "authors": "D Sziklai, B Budavári, B Kiss, L Herényi",
+      "venue": "D Sziklai, B Budavári, B Kiss, L Herényi… - … Applied Materials & …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acsami.6c03486",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Lipid Nanoparticle Surface Engineering with Heparosan Polysaccharides for Safe and Effective mRNA Delivery In Vitro and In Vivo",
+      "authors": "Y He, L Wang, R Velayutham, TI Valerio",
+      "venue": "Y He, L Wang, R Velayutham, TI Valerio… - … applied materials & …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acsami.6c05213",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Engineering challenges and translational opportunities in emerging gene delivery platforms",
+      "authors": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee",
+      "venue": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee… - Nature Biomedical …, 2026 - nature.com",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41551-026-01643-5",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Stimuli-responsive nanoplatforms for central nervous system disorders: integrating delivery, modulation, and imaging",
+      "authors": "Y Chen, Y Ding, H Lin, J Shi",
+      "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
+      "year": 2026,
+      "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
+      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
+      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
+      "authors": "K Belligund, RA Scott, S Wilhelm",
+      "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Zero-shot evidence-grounded extraction of blood–brain barrier nanoparticle design parameters with open-weight language models",
+      "authors": "H Abdulai, C Manresa-Yee, H Rexha",
+      "venue": "H Abdulai, C Manresa-Yee, H Rexha… - … Learning: Science and …, 2026 - iopscience.iop.org",
+      "year": 2026,
+      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae5442/meta",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Quantitative Computational Validation of Nanoscale Interactions between Drug Molecules and Diabetic Wound-Related Proteins for Drug Discovery",
+      "authors": "Z Zhang, Y Qin, RPK Muthuramalingam",
+      "venue": "Z Zhang, Y Qin, RPK Muthuramalingam… - ACS Nano …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/doi/abs/10.1021/acsnanomed.5c00180",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
