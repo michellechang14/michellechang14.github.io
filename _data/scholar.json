@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-25T10:44:02.851Z",
-  "totalCitations": 4690,
+  "lastUpdated": "2026-07-26T10:53:37.564Z",
+  "totalCitations": 4693,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -25,7 +25,7 @@
     },
     {
       "year": 2023,
-      "citations": 848
+      "citations": 849
     },
     {
       "year": 2024,
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 514
+      "citations": 516
     }
   ],
   "knownScholarArticles": [
@@ -60,16 +60,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:d1gkVwhDpl0C"
     },
     {
-      "title": "MnOx Nanospikes as Nanoadjuvants and Immunogenic Cell Death Drugs with Enhanced Antitumor Immunity and Antimetastatic Effect",
-      "year": 2020,
-      "publication": "Angewandte Chemie International Edition 59 (38), 16381-16384, 2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:eQOLeE2rZwMC"
-    },
-    {
       "title": "Au2Pt-PEG-Ce6 nanoformulation with dual nanozyme activities for synergistic chemodynamic therapy/phototherapy",
       "year": 2020,
       "publication": "Biomaterials 252, 120093, 2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "title": "MnOx Nanospikes as Nanoadjuvants and Immunogenic Cell Death Drugs with Enhanced Antitumor Immunity and Antimetastatic Effect",
+      "year": 2020,
+      "publication": "Angewandte Chemie International Edition 59 (38), 16381-16384, 2020",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:eQOLeE2rZwMC"
     },
     {
       "title": "Tumor‐microenvironment‐activated reactive oxygen species amplifier for enzymatic cascade cancer starvation/chemodynamic/immunotherapy",
@@ -162,16 +162,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
-      "year": 2024,
-      "publication": "Advanced Materials 36 (5), 2308774, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
-    },
-    {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
       "year": 2024,
       "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
+      "year": 2024,
+      "publication": "Advanced Materials 36 (5), 2308774, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
     },
     {
       "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
