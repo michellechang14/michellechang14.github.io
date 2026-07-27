@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-07-26T10:53:37.564Z",
-  "totalCitations": 4693,
+  "lastUpdated": "2026-07-27T12:36:42.953Z",
+  "totalCitations": 4701,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -13,31 +13,31 @@
     },
     {
       "year": 2020,
-      "citations": 140
+      "citations": 139
     },
     {
       "year": 2021,
-      "citations": 420
+      "citations": 421
     },
     {
       "year": 2022,
-      "citations": 723
+      "citations": 724
     },
     {
       "year": 2023,
-      "citations": 849
+      "citations": 850
     },
     {
       "year": 2024,
-      "citations": 999
+      "citations": 998
     },
     {
       "year": 2025,
-      "citations": 1015
+      "citations": 1016
     },
     {
       "year": 2026,
-      "citations": 516
+      "citations": 522
     }
   ],
   "knownScholarArticles": [
@@ -90,9 +90,9 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:LkGwnXOMwfcC"
     },
     {
-      "title": "A noble AuPtAg‐GOx nanozyme for synergistic tumor immunotherapy induced by starvation therapy‐augmented mild photothermal therapy",
+      "title": "A noble AuPtAg-GOx nanozyme for synergistic tumor immunotherapy induced by starvation therapy-augmented mild photothermal therapy",
       "year": 2022,
-      "publication": "Advanced Science 9 (31), 2202332, 2022",
+      "publication": "Advanced Science 9 (31), 2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Se3iqnhoufwC"
     },
     {
@@ -162,16 +162,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
-      "year": 2024,
-      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
-    },
-    {
       "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
       "year": 2024,
       "publication": "Advanced Materials 36 (5), 2308774, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
+      "year": 2024,
+      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
     },
     {
       "title": "Capacitive deionization of uranium mediated by dioxygen functionalities in the C= O= C= O segment of polyacrylic acid-functionalized graphene aerogel",
