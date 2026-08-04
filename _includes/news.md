@@ -1,4 +1,9 @@
 <article class="news-item">
+  <time>2026</time>
+  <p><span class="badge paper">PAPER</span><span class="badge journal">JOURNAL</span><span class="badge nature">NATURE</span> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=WaHuZvMAAAAJ&amp;pagesize=100&amp;citation_for_view=WaHuZvMAAAAJ:7PzlFSSx8tAC"><em>A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response</em></a> appeared in <strong>Nature Materials, 1-12, 2026</strong>.</p>
+</article>
+
+<article class="news-item">
   <time>2019</time>
   <p><span class="badge paper">PAPER</span><span class="badge journal">JOURNAL</span> <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=WaHuZvMAAAAJ&amp;pagesize=100&amp;citation_for_view=WaHuZvMAAAAJ:ufrVoPGSRksC"><em>Self-assembled CeVO4/Ag nanohybrid as photoconversion agents with enhanced solar-driven photocatalysis and NIR-responsive photothermal/photodynamic …</em></a> appeared in <strong>Nanoscale 11 (20), 10129-10136, 2019</strong>.</p>
 </article>
