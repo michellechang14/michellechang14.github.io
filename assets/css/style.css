@@ -158,6 +158,13 @@ main {
   line-height: 1.05;
 }
 
+.profile-meta {
+  margin: 7px 0 8px;
+  color: var(--muted);
+  font-size: 0.94rem;
+  font-weight: 700;
+}
+
 .sidebar-title {
   margin: 8px 0 2px;
   color: var(--accent-dark);

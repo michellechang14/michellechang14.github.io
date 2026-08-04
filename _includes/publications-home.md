@@ -10,7 +10,7 @@
       <div>
         <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
         <p>{% include highlight-author.html authors=publication.authors %}</p>
-        <p><strong>{{ publication.venue }}</strong>{% if publication.doi %} · DOI: <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}</p>
+        <p><strong>{{ publication.venue }}</strong>{% if publication.doi and publication.doi != '' %} &middot; DOI: <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a>{% endif %}</p>
       </div>
     </article>
     {% endfor %}

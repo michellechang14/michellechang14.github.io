@@ -15,6 +15,7 @@ on:
           - "true"
 
 permissions:
+  actions: write
   contents: write
 
 jobs:
@@ -35,7 +36,13 @@ jobs:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY || secrets.GOOGLESCHOLARAPI }}
         run: npm run update:scholar
       - name: Commit Scholar data
+        id: commit
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Scholar metrics and news"
           file_pattern: _data/scholar.json _includes/news.md _publications/*.md
+      - name: Trigger Pages deployment
+        if: steps.commit.outputs.changes_detected == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run jekyll-gh-pages.yml --ref main

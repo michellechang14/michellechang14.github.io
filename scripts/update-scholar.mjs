@@ -126,6 +126,15 @@ async function autoCreatePublicationsFromScholarArticles(articles) {
       .filter((publication) => publication.title)
       .map((publication) => [normalizeTitle(publication.title), publication])
   );
+  const localByCitationId = new Map(
+    localPublications
+      .map((publication) => ({
+        publication,
+        citationId: publication.scholar_citation_id || extractCitationIdFromLink(publication.paper)
+      }))
+      .filter((item) => item.citationId)
+      .map((item) => [item.citationId, item.publication])
+  );
   const latestLocalYear = Math.max(
     0,
     ...localPublications.map((publication) => Number(publication.year) || 0)
@@ -134,6 +143,7 @@ async function autoCreatePublicationsFromScholarArticles(articles) {
   let createdCount = 0;
 
   for (const article of scholarArticles.sort((a, b) => (b.year || 0) - (a.year || 0))) {
+    if (article.citationId && localByCitationId.has(article.citationId)) continue;
     if (findScholarArticleForPublication(article.title, localByTitle, localPublications)) continue;
 
     const shouldCreate =
@@ -147,6 +157,7 @@ async function autoCreatePublicationsFromScholarArticles(articles) {
     await writeFile(fileUrl, formatPublicationMarkdown(article));
     files.push(filename);
     localByTitle.set(normalizeTitle(article.title), { file: filename, title: article.title, year: article.year });
+    if (article.citationId) localByCitationId.set(article.citationId, { file: filename, title: article.title, year: article.year });
     createdCount += 1;
   }
 
@@ -344,11 +355,17 @@ function extractCitationId(article) {
 
   const links = [article.link, article.serpapi_link].filter(Boolean);
   for (const link of links) {
-    const match = String(link).match(/[?&]citation_for_view=([^&]+)/);
-    if (match) return decodeURIComponent(match[1]);
+    const citationId = extractCitationIdFromLink(link);
+    if (citationId) return citationId;
   }
 
   return "";
+}
+
+function extractCitationIdFromLink(link = "") {
+  if (!link) return "";
+  const match = String(link).match(/[?&]citation_for_view=([^&]+)/);
+  return match ? decodeURIComponent(match[1]) : "";
 }
 
 function normalizeCitationGraph(graph) {

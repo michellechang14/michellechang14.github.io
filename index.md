@@ -10,6 +10,7 @@ title: Home
   <aside class="academic-sidebar" id="contact">
     <img class="portrait" src="{{ profile.photo | relative_url }}" alt="{{ profile.name }} portrait">
     <h1>{{ profile.name }}</h1>
+    <p class="profile-meta">{{ profile.englishName }} &middot; {{ profile.pronouns }}</p>
     <p class="sidebar-title">{{ profile.title }}</p>
     <p class="sidebar-department">{{ profile.department }}</p>
 
@@ -96,6 +97,11 @@ title: Home
       </div>
       {% assign wordcloud_path = '/assets/img/wordmap/wordcloud_s.png' %}
       {% assign wordcloud_image = site.static_files | where: 'path', wordcloud_path | first %}
+      {% if wordcloud_image %}
+      <figure class="scholar-wordcloud">
+        <img src="{{ wordcloud_path | relative_url }}" alt="Research keyword word cloud">
+      </figure>
+      {% endif %}
       <a class="text-link" href="{{ '/scholar/' | relative_url }}"><span data-lang="en">View citation tracker</span><span data-lang="zh">查看引用追踪</span></a>
 
     </div>
