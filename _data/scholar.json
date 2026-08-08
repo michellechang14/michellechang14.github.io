@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-07T10:10:24.446Z",
+  "lastUpdated": "2026-08-08T09:53:54.370Z",
   "totalCitations": 4723,
   "hIndex": 27,
   "i10Index": 33,
@@ -304,6 +304,14 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
+      "title": "Large Language Models in Nanoparticles Research: Methods, Applications, Impacts, and Future Directions",
+      "authors": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz",
+      "venue": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz - AI for Materials, 2026 - sciltp.com",
+      "year": 2026,
+      "url": "https://www.sciltp.com/journals/aimat/articles/2607004617",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
       "title": "AI-assisted rational design of efficient nutrient delivery systems: Molecular interactions, physiological barrier overcoming, structure–function elucidation, and …",
       "authors": "J Huang, W Li, Y Cao, M Guo, H Jin, Y Liu",
       "venue": "J Huang, W Li, Y Cao, M Guo, H Jin, Y Liu - Food Research International, 2026 - Elsevier",
@@ -360,19 +368,11 @@
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
-      "title": "Zero-shot evidence-grounded extraction of blood–brain barrier nanoparticle design parameters with open-weight language models",
-      "authors": "H Abdulai, C Manresa-Yee, H Rexha",
-      "venue": "H Abdulai, C Manresa-Yee, H Rexha… - … Learning: Science and …, 2026 - iopscience.iop.org",
+      "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
+      "authors": "K Belligund, RA Scott, S Wilhelm",
+      "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
       "year": 2026,
-      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae5442/meta",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Artificial intelligence agents in healthcare research: A scoping review",
-      "authors": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng",
-      "venue": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng… - Plos one, 2026 - journals.plos.org",
-      "year": 2026,
-      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342182",
+      "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
