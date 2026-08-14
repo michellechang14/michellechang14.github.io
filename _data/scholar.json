@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-13T10:27:43.984Z",
-  "totalCitations": 4737,
+  "lastUpdated": "2026-08-14T10:15:45.165Z",
+  "totalCitations": 4740,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1015
+      "citations": 1014
     },
     {
       "year": 2026,
-      "citations": 557
+      "citations": 561
     }
   ],
   "knownScholarArticles": [
@@ -320,14 +320,6 @@
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
-      "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
-      "authors": "M Mohammadnejad, M Haddad",
-      "venue": "M Mohammadnejad, M Haddad… - Analytical …, 2026 - pmc.ncbi.nlm.nih.gov",
-      "year": 2026,
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295095/",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
       "title": "Unveiling the Structural and Mechanical Diversity of SARS-CoV‑2 Variants Using Atomic Force Microscopy",
       "authors": "D Sziklai, B Budavári, B Kiss, L Herényi",
       "venue": "D Sziklai, B Budavári, B Kiss, L Herényi… - … Applied Materials & …, 2026 - pmc.ncbi.nlm.nih.gov",
@@ -344,22 +336,6 @@
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
-      "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
-      "authors": "K Belligund, RA Scott, S Wilhelm",
-      "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
-      "year": 2026,
-      "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Zero-shot evidence-grounded extraction of blood–brain barrier nanoparticle design parameters with open-weight language models",
-      "authors": "H Abdulai, C Manresa-Yee, H Rexha",
-      "venue": "H Abdulai, C Manresa-Yee, H Rexha… - … Learning: Science and …, 2026 - iopscience.iop.org",
-      "year": 2026,
-      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae5442/meta",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
       "title": "Artificial intelligence agents in healthcare research: A scoping review",
       "authors": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng",
       "venue": "B Njei, YA Al-Ajlouni, U Sidney Kanmounye, S Boateng… - Plos one, 2026 - journals.plos.org",
@@ -373,6 +349,14 @@
       "venue": "G Luo, X Jiang, C Hu, L Li, L Yan, G Xiao… - Chemical Society …, 2026 - pubs.rsc.org",
       "year": 2026,
       "url": "https://pubs.rsc.org/cs/article-abstract/55/4/2070/888287",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Analysis of Pharmacokinetic–Pharmacodynamic Relationships of Nanoparticles against Tumors",
+      "authors": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere",
+      "venue": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere… - ACS Nano - ACS Publications",
+      "year": null,
+      "url": "https://pubs.acs.org/ancac3/article/doi/10.1021/acsnano.6c02730/5240935",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
