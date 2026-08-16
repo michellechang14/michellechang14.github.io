@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-15T09:40:48.219Z",
-  "totalCitations": 4744,
+  "lastUpdated": "2026-08-16T09:41:54.946Z",
+  "totalCitations": 4746,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 566
+      "citations": 568
     }
   ],
   "knownScholarArticles": [
@@ -210,16 +210,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4DMP91E08xMC"
     },
     {
-      "title": "Dendritic plasmonic CuPt alloys for closed‐loop multimode cancer therapy with remarkably enhanced efficacy",
-      "year": 2023,
-      "publication": "Small 19 (10), 2206423, 2023",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:UeHWp8X0CEIC"
-    },
-    {
       "title": "Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy",
       "year": 2022,
       "publication": "Chemistry–A European Journal 28 (15), e202104081, 2022",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "title": "Dendritic plasmonic CuPt alloys for closed‐loop multimode cancer therapy with remarkably enhanced efficacy",
+      "year": 2023,
+      "publication": "Small 19 (10), 2206423, 2023",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:UeHWp8X0CEIC"
     },
     {
       "title": "A generative artificial intelligence copilot for biomedical nanoengineering",
