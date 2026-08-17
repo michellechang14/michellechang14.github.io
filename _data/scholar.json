@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-16T09:41:54.946Z",
+  "lastUpdated": "2026-08-17T09:57:23.811Z",
   "totalCitations": 4746,
   "hIndex": 27,
   "i10Index": 33,
@@ -344,35 +344,35 @@
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
-      "title": "Engineering challenges and translational opportunities in emerging gene delivery platforms",
-      "authors": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee",
-      "venue": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee… - Nature Biomedical …, 2026 - nature.com",
-      "year": 2026,
-      "url": "https://www.nature.com/articles/s41551-026-01643-5",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Stimuli-responsive nanoplatforms for central nervous system disorders: integrating delivery, modulation, and imaging",
-      "authors": "Y Chen, Y Ding, H Lin, J Shi",
-      "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
-      "year": 2026,
-      "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
-      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
-      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
       "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
       "authors": "K Belligund, RA Scott, S Wilhelm",
       "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
       "year": 2026,
       "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Zero-shot evidence-grounded extraction of blood–brain barrier nanoparticle design parameters with open-weight language models",
+      "authors": "H Abdulai, C Manresa-Yee, H Rexha",
+      "venue": "H Abdulai, C Manresa-Yee, H Rexha… - … Learning: Science and …, 2026 - iopscience.iop.org",
+      "year": 2026,
+      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae5442/meta",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Artificial intelligence-powered nanomedicine",
+      "authors": "G Luo, X Jiang, C Hu, L Li, L Yan, G Xiao",
+      "venue": "G Luo, X Jiang, C Hu, L Li, L Yan, G Xiao… - Chemical Society …, 2026 - pubs.rsc.org",
+      "year": 2026,
+      "url": "https://pubs.rsc.org/cs/article-abstract/55/4/2070/888287",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Stimuli-responsive nanomedicines for hepatic diseases: mechanism, design, recent advances, and clinical translation",
+      "authors": "L Wang, X Zhang, Y Li, M Zhao, G Xu, Z Duan",
+      "venue": "L Wang, X Zhang, Y Li, M Zhao, G Xu, Z Duan… - Journal of Controlled …, 2025 - Elsevier",
+      "year": 2025,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168365925011368",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
