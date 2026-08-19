@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-18T09:48:21.166Z",
+  "lastUpdated": "2026-08-19T09:49:09.559Z",
   "totalCitations": 4748,
   "hIndex": 27,
   "i10Index": 33,
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1013
+      "citations": 1011
     },
     {
       "year": 2026,
-      "citations": 570
+      "citations": 572
     }
   ],
   "knownScholarArticles": [
@@ -296,14 +296,6 @@
   ],
   "recentCitations": [
     {
-      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
-      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
-      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
-      "year": 2026,
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
       "title": "Large Language Models in Nanoparticles Research: Methods, Applications, Impacts, and Future Directions",
       "authors": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz",
       "venue": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz - AI for Materials, 2026 - sciltp.com",
@@ -317,6 +309,62 @@
       "venue": "J Huang, W Li, Y Cao, M Guo, H Jin, Y Liu - Food Research International, 2026 - Elsevier",
       "year": 2026,
       "url": "https://www.sciencedirect.com/science/article/pii/S0963996926018594",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
+      "authors": "M Mohammadnejad, M Haddad",
+      "venue": "M Mohammadnejad, M Haddad… - Analytical …, 2026 - pmc.ncbi.nlm.nih.gov",
+      "year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295095/",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Unveiling the Structural and Mechanical Diversity of SARS-CoV‑2 Variants Using Atomic Force Microscopy",
+      "authors": "D Sziklai, B Budavári, B Kiss, L Herényi",
+      "venue": "D Sziklai, B Budavári, B Kiss, L Herényi… - … Applied Materials & …, 2026 - pmc.ncbi.nlm.nih.gov",
+      "year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13288390/",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Lipid Nanoparticle Surface Engineering with Heparosan Polysaccharides for Safe and Effective mRNA Delivery In Vitro and In Vivo",
+      "authors": "Y He, L Wang, R Velayutham, TI Valerio",
+      "venue": "Y He, L Wang, R Velayutham, TI Valerio… - … applied materials & …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/aamick/article-abstract/18/20/28536/5088701",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Engineering challenges and translational opportunities in emerging gene delivery platforms",
+      "authors": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee",
+      "venue": "Y Ma, S Dong, A Wu, SD Jeong, AS Lee… - Nature Biomedical …, 2026 - nature.com",
+      "year": 2026,
+      "url": "https://www.nature.com/articles/s41551-026-01643-5",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Stimuli-responsive nanoplatforms for central nervous system disorders: integrating delivery, modulation, and imaging",
+      "authors": "Y Chen, Y Ding, H Lin, J Shi",
+      "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
+      "year": 2026,
+      "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
+      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
+      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
+      "authors": "K Belligund, RA Scott, S Wilhelm",
+      "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
+      "year": 2026,
+      "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
