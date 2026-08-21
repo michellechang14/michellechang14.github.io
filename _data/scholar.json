@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-20T09:49:54.327Z",
+  "lastUpdated": "2026-08-21T09:52:03.960Z",
   "totalCitations": 4748,
   "hIndex": 27,
   "i10Index": 33,
@@ -304,6 +304,22 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
+      "title": "25 Years of Cancer Immunoediting: Dendritic Cells and Macrophages Filled the Missing Gap",
+      "authors": "V Kumar, JH Stewart IV",
+      "venue": "V Kumar, JH Stewart IV - Cancers, 2026 - mdpi.com",
+      "year": 2026,
+      "url": "https://www.mdpi.com/2072-6694/18/16/2672",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
+    },
+    {
+      "title": "Analysis of Pharmacokinetic–Pharmacodynamic Relationships of Nanoparticles against Tumors",
+      "authors": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere",
+      "venue": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere… - ACS …, 2026 - ACS Publications",
+      "year": 2026,
+      "url": "https://pubs.acs.org/ancac3/article-abstract/doi/10.1021/acsnano.6c02730/5240935",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
       "title": "Large Language Models in Nanoparticles Research: Methods, Applications, Impacts, and Future Directions",
       "authors": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz",
       "venue": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz - AI for Materials, 2026 - sciltp.com",
@@ -357,22 +373,6 @@
       "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
       "year": 2026,
       "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
-      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
-      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Promoting Self-Efficacy of Biomedical Engineering Undergraduate Students Using a Deliberately Designed Nanomedicine Workshop Series",
-      "authors": "K Belligund, RA Scott, S Wilhelm",
-      "venue": "K Belligund, RA Scott, S Wilhelm - Biomedical engineering education, 2026 - Springer",
-      "year": 2026,
-      "url": "https://link.springer.com/article/10.1007/s43683-026-00223-y",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
