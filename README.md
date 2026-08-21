@@ -1,63 +1,53 @@
-# Mengyu Chang Academic Website
+# Mengyu Chang, Ph.D.
 
-This is a Jekyll academic homepage for GitHub Pages. It is structured for Mengyu Chang's postdoctoral researcher profile, publication detail pages, upcoming conference activity, and an automated Google Scholar metrics feed.
+**Michelle Chang** is a postdoctoral fellow in the Department of Radiation Oncology at The University of Texas MD Anderson Cancer Center. Her research focuses on developing multifunctional nanomaterials and nanomedicine strategies for cancer diagnosis, imaging-guided therapy, and immunotherapy.
 
-## Structure
+Her work sits at the interface of cancer biology, biomaterials, chemical biology, and translational nanomedicine. She is particularly interested in how engineered nanosystems can sense and remodel the tumor microenvironment, regulate oxidative stress and metabolism, improve immune activation, and enable more precise therapeutic responses in solid tumors.
 
-- `_data/profile.json`: name, bio, links, research interests, and contact details.
-- `_data/events.json`: upcoming conferences, talks, posters, and visits.
-- `_data/scholar.json`: citation metrics and the latest citing papers shown on `/scholar/`.
-- `_includes/news.md`: homepage news items.
-- `_includes/biography.md`: homepage biography section.
-- `_includes/research.md`: homepage research section.
-- `_includes/publications-home.md`: homepage publication preview section.
-- `_includes/education.md`: homepage education and appointments section.
-- `_includes/honors.md`: homepage honors section.
-- `NEWS_TAGS.md`: tag helper for homepage news labels.
-- `_publications/*.md`: one Markdown file per publication. Jekyll turns each file into its own subpage.
-- `assets/css/style.css`: visual design.
-- `scripts/update-scholar.mjs`: Scholar updater used by GitHub Actions.
-- `.github/workflows/update-scholar.yml`: scheduled updater that runs daily.
+## Research Interests
 
-## Add a publication
+Michelle's current research interests include:
 
-Duplicate `_publications/2026-example-cancer-biology.md`, rename it, and edit the front matter. The page will appear in the publication list automatically.
+- Cancer nanomedicine and multifunctional therapeutic nanomaterials
+- Tumor microenvironment-responsive materials
+- Single-atom nanozymes and catalytic nanomedicine
+- Imaging-guided cancer therapy, including photoacoustic and multimodal imaging
+- Photothermal, photodynamic, chemodynamic, ferroptosis-related, and starvation therapy
+- Cancer immunotherapy and combination therapeutic strategies
+- mRNA, extracellular vesicle, and immune-modulating delivery platforms
 
-For the "latest citing papers" feed, add a `scholar_cites_id` value to each publication when you know its Google Scholar cited-by ID.
+## Research Vision
 
-## Update conferences
+Cancer therapy increasingly requires tools that can act with spatial precision, biological selectivity, and mechanistic adaptability. Michelle's research aims to design nanoscale materials that do more than deliver a payload: they respond to disease-associated cues, modulate local metabolism and redox biology, enhance antitumor immunity, and integrate diagnostic imaging with therapeutic action.
 
-Edit `_data/events.json`. Items are sorted by date on the homepage.
+Her broader goal is to contribute to biologically informed nanomedicine platforms that can bridge fundamental materials design and clinically relevant cancer treatment strategies.
 
-## Scholar automation
+## Academic Training
 
-Google Scholar does not provide an official public API. The updater supports two modes:
+Michelle is currently a postdoctoral fellow at MD Anderson Cancer Center, where she works in radiation oncology and cancer nanomedicine. Before joining MD Anderson, she conducted postdoctoral research at Nanyang Technological University in Singapore.
 
-1. With `SERPAPI_API_KEY` configured as a GitHub repository secret, it fetches profile metrics, citation history by year, watches the Scholar author article list, creates new publication pages for newly detected papers, and can gather recent citing papers for publications with `scholar_cites_id`.
-2. Without that secret, it attempts a lightweight profile fetch for citation totals, but recent citing papers are left unchanged because direct Scholar scraping is unreliable and can be blocked.
+She received her Ph.D. from the Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, with research training in multifunctional nanomaterials, catalytic nanozymes, phototherapy, multimodal imaging, and tumor therapy. She earned her bachelor's degree from Hunan Normal University.
 
-The first SerpAPI-backed run initializes `_data/scholar.json` with known Scholar article titles and does not add historical papers to News. After that, any newly detected Scholar article is prepended to `_includes/news.md` automatically. To intentionally add existing Scholar articles during the first run, set `SCHOLAR_NEWS_BOOTSTRAP=true` in the workflow environment.
+## Technical Expertise
 
-The workflow is configured for a low SerpAPI budget. It runs once per day, which is about 30 scheduled runs per month. Each run always uses one author-profile lookup, and the same response is used to automatically create `_publications/*.md` pages for Scholar articles newer than the local publication list and to fill empty `scholar_cites_id` and `scholar_citation_id` fields by matching Scholar article titles. `SERPAPI_MAX_CITED_BY_LOOKUPS=2` limits extra cited-by searches to at most two publications per run, and `SERPAPI_MAX_ABSTRACT_LOOKUPS=2` limits single-article detail lookups for missing abstracts. With the current schedule, the normal upper bound is about 150 SerpAPI requests per month, plus any manual workflow runs.
+Michelle's experimental background includes nanomaterial synthesis and surface modification, rare earth and transition-metal nanomaterials, single-atom nanozymes, noble metal deposition, in situ mineralization, polymer and macromolecule coating, cell culture, immunofluorescence, ELISA, histological analysis, small animal tumor models, tissue processing, and flow cytometry.
 
-By default, historical Scholar articles are not bulk-imported unless they are newer than the local publication list. To intentionally import all unmatched Scholar articles, manually run the `Update Scholar Metrics` workflow and set `Import all unmatched Scholar publications once` to `true`.
+She also has experience with materials and bioimaging characterization methods including XRD, SEM, TEM, UV-visible spectroscopy, DLS, zeta potential analysis, MSOT photoacoustic imaging, and multimodal therapeutic evaluation.
 
-News items can use multiple tags:
+## Selected Research Themes
 
-```html
-<span class="badge paper">PAPER</span><span class="badge journal">JOURNAL</span><span class="badge nature">NATURE</span>
-```
+**Single-Atom Nanozymes**  
+Designing atomically dispersed catalytic sites to regulate reactive oxygen species, tumor metabolism, ferroptosis, and mild photothermal therapeutic responses.
 
-The profile is already configured for:
+**Imaging-Guided Phototherapy**  
+Constructing photothermal, photodynamic, photoacoustic, and multimodal imaging platforms for precise cancer therapy under near-infrared activation.
 
-`https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en`
+**Tumor Microenvironment-Responsive Therapy**  
+Engineering biodegradable and metabolizable nanocomposites that respond to tumor acidity, redox state, lactate metabolism, oxygen balance, and immune contexture.
 
-## Local preview
+## Links
 
-Install Ruby/Jekyll if needed, then run:
-
-```bash
-bundle exec jekyll serve
-```
-
-GitHub Pages will build the site automatically after pushing to `main`.
+- Website: https://michellechang14.github.io
+- Google Scholar: https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en
+- LinkedIn: https://www.linkedin.com/in/mengyu-chang-302b64238/
+- Email: mchang4@mdanderson.org
