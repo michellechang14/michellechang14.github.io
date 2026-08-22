@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-21T09:52:03.960Z",
-  "totalCitations": 4748,
+  "lastUpdated": "2026-08-22T09:42:08.034Z",
+  "totalCitations": 4751,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 573
+      "citations": 576
     }
   ],
   "knownScholarArticles": [
@@ -252,16 +252,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:9ZlFYXVOiuMC"
     },
     {
-      "title": "A synthetic cationic helical polypeptide as a multipotent innate immune activator for cancer immunotherapy",
-      "year": 2024,
-      "publication": "Nature biomedical engineering 8 (5), 593, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qxL8FJ1GzNcC"
-    },
-    {
       "title": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma",
       "year": 2026,
       "publication": "Nature communications 17 (1), 3709, 2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "title": "A synthetic cationic helical polypeptide as a multipotent innate immune activator for cancer immunotherapy",
+      "year": 2024,
+      "publication": "Nature biomedical engineering 8 (5), 593, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qxL8FJ1GzNcC"
     },
     {
       "title": "Frontispiece: Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy.",
@@ -296,19 +296,19 @@
   ],
   "recentCitations": [
     {
-      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
-      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
-      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
-      "year": 2026,
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
       "title": "25 Years of Cancer Immunoediting: Dendritic Cells and Macrophages Filled the Missing Gap",
       "authors": "V Kumar, JH Stewart IV",
       "venue": "V Kumar, JH Stewart IV - Cancers, 2026 - mdpi.com",
       "year": 2026,
       "url": "https://www.mdpi.com/2072-6694/18/16/2672",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
+    },
+    {
+      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
+      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
+      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
