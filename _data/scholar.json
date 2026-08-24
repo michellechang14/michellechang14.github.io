@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-23T09:42:45.580Z",
-  "totalCitations": 4751,
+  "lastUpdated": "2026-08-24T10:03:47.137Z",
+  "totalCitations": 4753,
   "hIndex": 27,
   "i10Index": 33,
   "citationHistory": [
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1010
+      "citations": 1016
     },
     {
       "year": 2026,
-      "citations": 576
+      "citations": 572
     }
   ],
   "knownScholarArticles": [
@@ -304,14 +304,6 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
-      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
-      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
-      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
-      "year": 2026,
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
       "title": "Analysis of Pharmacokinetic–Pharmacodynamic Relationships of Nanoparticles against Tumors",
       "authors": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere",
       "venue": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere… - ACS …, 2026 - ACS Publications",
@@ -373,6 +365,14 @@
       "venue": "Y Chen, Y Ding, H Lin, J Shi - Chemical Society Reviews, 2026 - pubs.rsc.org",
       "year": 2026,
       "url": "https://pubs.rsc.org/cs/article-abstract/55/11/6257/1240211",
+      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+    },
+    {
+      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
+      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
+      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
