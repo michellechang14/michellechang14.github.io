@@ -2,9 +2,9 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-26T09:56:55.049Z",
-  "totalCitations": 4754,
-  "hIndex": 27,
+  "lastUpdated": "2026-08-27T19:50:49.438Z",
+  "totalCitations": 4755,
+  "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
     {
@@ -29,15 +29,15 @@
     },
     {
       "year": 2024,
-      "citations": 993
+      "citations": 992
     },
     {
       "year": 2025,
-      "citations": 1016
+      "citations": 1011
     },
     {
       "year": 2026,
-      "citations": 572
+      "citations": 579
     }
   ],
   "knownScholarArticles": [
@@ -198,16 +198,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:5nxA0vEk-isC"
     },
     {
-      "title": "Synthetic cationic helical polypeptides for the stimulation of antitumour innate immune pathways in antigen-presenting cells",
-      "year": 2024,
-      "publication": "Nature biomedical engineering 8 (5), 593-610, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4TOpqqG69KYC"
-    },
-    {
       "title": "An antibody–toxin conjugate targeting CD47 linked to the bacterial toxin listeriolysin O for cancer immunotherapy",
       "year": 2025,
       "publication": "Nature cancer 6 (3), 511-527, 2025",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "title": "Synthetic cationic helical polypeptides for the stimulation of antitumour innate immune pathways in antigen-presenting cells",
+      "year": 2024,
+      "publication": "Nature biomedical engineering 8 (5), 593-610, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4TOpqqG69KYC"
     },
     {
       "title": "Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy",
@@ -328,27 +328,11 @@
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     },
     {
-      "title": "Label-Free and High-Throughput Quantification of Nanoparticle–Cell Interactions at the Single-Cell Level with Flow Cytometry",
-      "authors": "M Mohammadnejad, M Haddad",
-      "venue": "M Mohammadnejad, M Haddad… - Analytical …, 2026 - pmc.ncbi.nlm.nih.gov",
-      "year": 2026,
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13295095/",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Artificial intelligence-assisted lipid nanoparticles formulation in drug delivery for precision therapy",
-      "authors": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su",
-      "venue": "C Huang, W Zuo, J Xiao, C Xiong, L Zhu, Y Su… - Materials Today …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S2590049826001153",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Zero-shot evidence-grounded extraction of blood–brain barrier nanoparticle design parameters with open-weight language models",
-      "authors": "H Abdulai, C Manresa-Yee, H Rexha",
-      "venue": "H Abdulai, C Manresa-Yee, H Rexha… - … Learning: Science and …, 2026 - iopscience.iop.org",
-      "year": 2026,
-      "url": "https://iopscience.iop.org/article/10.1088/2632-2153/ae5442/meta",
+      "title": "Machine learning for nanoparticle-based imaging: From rational design to precision diagnosis",
+      "authors": "N Kang, Z Li, F Tan, Z Liu, Y Yang, X Qian",
+      "venue": "N Kang, Z Li, F Tan, Z Liu, Y Yang, X Qian… - Advances in Colloid and …, 2025 - Elsevier",
+      "year": 2025,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001868625003847",
       "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
     }
   ]
