@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-27T19:50:49.438Z",
-  "totalCitations": 4755,
+  "lastUpdated": "2026-08-28T20:50:32.710Z",
+  "totalCitations": 4758,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 579
+      "citations": 582
     }
   ],
   "knownScholarArticles": [
@@ -264,16 +264,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qxL8FJ1GzNcC"
     },
     {
-      "title": "Frontispiece: Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy.",
-      "year": 2022,
-      "publication": "Chemistry-A European Journal 28 (15), 1, 2022",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qjMakFHDy7sC"
-    },
-    {
       "title": "A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response",
       "year": 2026,
       "publication": "Nature Materials, 1-12, 2026",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "title": "Frontispiece: Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy.",
+      "year": 2022,
+      "publication": "Chemistry-A European Journal 28 (15), 1, 2022",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:qjMakFHDy7sC"
     },
     {
       "title": "206 Engineering MRNA-Loaded Immunogenic Exosomes for Targeted Glioblastoma Immunotherapy",
@@ -296,6 +296,14 @@
   ],
   "recentCitations": [
     {
+      "title": "Host biology as a determinant of in vivo delivery and its translational potential",
+      "authors": "Q Liang, H Zhou, Y Wang",
+      "venue": "Q Liang, H Zhou, Y Wang - Clinical and Translational …, 2026 - pmc.ncbi.nlm.nih.gov",
+      "year": 2026,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13501102/",
+      "sourcePublication": "A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response"
+    },
+    {
       "title": "25 Years of Cancer Immunoediting: Dendritic Cells and Macrophages Filled the Missing Gap",
       "authors": "V Kumar, JH Stewart IV",
       "venue": "V Kumar, JH Stewart IV - Cancers, 2026 - mdpi.com",
@@ -304,36 +312,12 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
-      "title": "Analysis of Pharmacokinetic–Pharmacodynamic Relationships of Nanoparticles against Tumors",
-      "authors": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere",
-      "venue": "K Mi, Q Chen, L Yuan, C He, NA Monteiro-Riviere… - ACS …, 2026 - ACS Publications",
+      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
+      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
+      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
       "year": 2026,
-      "url": "https://pubs.acs.org/ancac3/article-abstract/doi/10.1021/acsnano.6c02730/5240935",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Large Language Models in Nanoparticles Research: Methods, Applications, Impacts, and Future Directions",
-      "authors": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz",
-      "venue": "MNC Emon, JN Ethica, MAA Meia, MMH Mahfuz - AI for Materials, 2026 - sciltp.com",
-      "year": 2026,
-      "url": "https://www.sciltp.com/journals/aimat/articles/2607004617",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "AI-assisted rational design of efficient nutrient delivery systems: Molecular interactions, physiological barrier overcoming, structure–function elucidation, and …",
-      "authors": "J Huang, W Li, Y Cao, M Guo, H Jin, Y Liu",
-      "venue": "J Huang, W Li, Y Cao, M Guo, H Jin, Y Liu - Food Research International, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0963996926018594",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
-    },
-    {
-      "title": "Machine learning for nanoparticle-based imaging: From rational design to precision diagnosis",
-      "authors": "N Kang, Z Li, F Tan, Z Liu, Y Yang, X Qian",
-      "venue": "N Kang, Z Li, F Tan, Z Liu, Y Yang, X Qian… - Advances in Colloid and …, 2025 - Elsevier",
-      "year": 2025,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0001868625003847",
-      "sourcePublication": "A generative artificial intelligence copilot for biomedical nanoengineering"
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     }
   ]
 }

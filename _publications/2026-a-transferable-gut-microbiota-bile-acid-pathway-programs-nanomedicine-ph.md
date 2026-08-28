@@ -10,7 +10,7 @@ paper: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Wa
 code: ""
 slides: ""
 scholar_citation_id: "WaHuZvMAAAAJ:7PzlFSSx8tAC"
-scholar_cites_id: ""
+scholar_cites_id: "5865638686108052341"
 abstract: "The clinical efficacy of nanomedicines is often limited by hepatic sequestration, yet the endogenous programs determining this clearance state remain incompletely understood. Here we identify the gut microbiota as a regulator of nanomedicine biodistribution through bile-acid-associated programming of Kupffer cell phagocytic state. Using germ-free mice, microbial perturbation, faecal microbiota transplantation and multiomic profiling, we show that metronidazole remodels the gut microbial ecology and reprograms Kupffer cells into a reduced-uptake state, thereby suppressing hepatic clearance and enhancing the tumour accumulation of nanomedicines across multiple formulations and tumour models. Single-cell RNA sequencing reveals a shift in Kupffer cell populations from phagocytic to quiescent states, whereas metabolomic profiling identifies microbiota-dependent reductions in bile acid availability. Gut …"
 citation: ""
 ---
