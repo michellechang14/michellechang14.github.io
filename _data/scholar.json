@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-08-31T17:03:49.973Z",
-  "totalCitations": 4759,
+  "lastUpdated": "2026-09-01T14:08:55.900Z",
+  "totalCitations": 4763,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 583
+      "citations": 587
     }
   ],
   "knownScholarArticles": [
@@ -198,16 +198,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:5nxA0vEk-isC"
     },
     {
-      "title": "An antibody–toxin conjugate targeting CD47 linked to the bacterial toxin listeriolysin O for cancer immunotherapy",
-      "year": 2025,
-      "publication": "Nature cancer 6 (3), 511-527, 2025",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4DMP91E08xMC"
-    },
-    {
       "title": "Synthetic cationic helical polypeptides for the stimulation of antitumour innate immune pathways in antigen-presenting cells",
       "year": 2024,
       "publication": "Nature biomedical engineering 8 (5), 593-610, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "title": "An antibody–toxin conjugate targeting CD47 linked to the bacterial toxin listeriolysin O for cancer immunotherapy",
+      "year": 2025,
+      "publication": "Nature cancer 6 (3), 511-527, 2025",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:4DMP91E08xMC"
     },
     {
       "title": "Tumor Microenvironment Responsive Single‐Atom Nanozymes for Enhanced Antitumor Therapy",
