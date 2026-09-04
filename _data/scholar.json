@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-09-03T13:35:08.674Z",
-  "totalCitations": 4765,
+  "lastUpdated": "2026-09-04T13:32:27.756Z",
+  "totalCitations": 4772,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 589
+      "citations": 596
     }
   ],
   "knownScholarArticles": [
@@ -156,16 +156,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Y0pCki6q_DkC"
     },
     {
-      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
-      "year": 2024,
-      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
-    },
-    {
       "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
       "year": 2024,
       "publication": "Advanced Materials 36 (5), 2308774, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
+      "year": 2024,
+      "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
     },
     {
       "title": "NIR‐Triggered Multi‐Mode Antitumor Therapy Based on Bi2Se3/Au Heterostructure with Enhanced Efficacy",
@@ -317,6 +317,14 @@
       "venue": "V Kumar, JH Stewart IV - Cancers, 2026 - mdpi.com",
       "year": 2026,
       "url": "https://www.mdpi.com/2072-6694/18/16/2672",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
+    },
+    {
+      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
+      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
+      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     }
   ]
