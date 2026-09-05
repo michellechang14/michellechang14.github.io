@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-09-04T13:32:27.756Z",
-  "totalCitations": 4772,
+  "lastUpdated": "2026-09-05T12:43:14.742Z",
+  "totalCitations": 4774,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -33,11 +33,11 @@
     },
     {
       "year": 2025,
-      "citations": 1011
+      "citations": 1010
     },
     {
       "year": 2026,
-      "citations": 596
+      "citations": 599
     }
   ],
   "knownScholarArticles": [
@@ -150,16 +150,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "Enhanced photoconversion performance of NdVO4/Au nanocrystals for photothermal/photoacoustic imaging guided and near infrared light-triggered anticancer phototherapy",
-      "year": 2019,
-      "publication": "Acta biomaterialia 99, 295-306, 2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Y0pCki6q_DkC"
-    },
-    {
       "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
       "year": 2024,
       "publication": "Advanced Materials 36 (5), 2308774, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
+    },
+    {
+      "title": "Enhanced photoconversion performance of NdVO4/Au nanocrystals for photothermal/photoacoustic imaging guided and near infrared light-triggered anticancer phototherapy",
+      "year": 2019,
+      "publication": "Acta biomaterialia 99, 295-306, 2019",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Y0pCki6q_DkC"
     },
     {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
