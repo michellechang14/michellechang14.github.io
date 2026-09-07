@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-09-06T12:52:59.133Z",
-  "totalCitations": 4774,
+  "lastUpdated": "2026-09-07T15:03:37.331Z",
+  "totalCitations": 4776,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -17,7 +17,7 @@
     },
     {
       "year": 2021,
-      "citations": 422
+      "citations": 424
     },
     {
       "year": 2022,
@@ -60,16 +60,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:d1gkVwhDpl0C"
     },
     {
-      "title": "Au2Pt-PEG-Ce6 nanoformulation with dual nanozyme activities for synergistic chemodynamic therapy/phototherapy",
-      "year": 2020,
-      "publication": "Biomaterials 252, 120093, 2020",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:roLk4NBRz8UC"
-    },
-    {
       "title": "MnOx Nanospikes as Nanoadjuvants and Immunogenic Cell Death Drugs with Enhanced Antitumor Immunity and Antimetastatic Effect",
       "year": 2020,
       "publication": "Angewandte Chemie 132 (38), 16523-16526, 2020",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:eQOLeE2rZwMC"
+    },
+    {
+      "title": "Au2Pt-PEG-Ce6 nanoformulation with dual nanozyme activities for synergistic chemodynamic therapy/phototherapy",
+      "year": 2020,
+      "publication": "Biomaterials 252, 120093, 2020",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:roLk4NBRz8UC"
     },
     {
       "title": "Tumor‐microenvironment‐activated reactive oxygen species amplifier for enzymatic cascade cancer starvation/chemodynamic/immunotherapy",
@@ -302,30 +302,6 @@
       "year": 2026,
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13501102/",
       "sourcePublication": "A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response"
-    },
-    {
-      "title": "Immunomodulatory potential of galing (Cayratia trifolia L. Domin) plant on IgM antibody and monocytes in Salmonella typhi-infected rats",
-      "authors": "N Rusli, A Jabbar, A Pascayantri",
-      "venue": "N Rusli, A Jabbar, A Pascayantri… - Current Research on …, 2026 - crbb-journal.com",
-      "year": 2026,
-      "url": "https://crbb-journal.com/ojs/index.php/crbb/article/view/150",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "25 Years of Cancer Immunoediting: Dendritic Cells and Macrophages Filled the Missing Gap",
-      "authors": "V Kumar, JH Stewart IV",
-      "venue": "V Kumar, JH Stewart IV - Cancers, 2026 - mdpi.com",
-      "year": 2026,
-      "url": "https://www.mdpi.com/2072-6694/18/16/2672",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
-      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
-      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
-      "year": 2026,
-      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     }
   ]
 }
