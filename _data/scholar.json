@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-09-24T14:12:22.038Z",
-  "totalCitations": 4791,
+  "lastUpdated": "2026-09-25T14:36:21.779Z",
+  "totalCitations": 4794,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 622
+      "citations": 625
     }
   ],
   "knownScholarArticles": [
@@ -168,16 +168,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
     },
     {
-      "title": "NIR‐Triggered Multi‐Mode Antitumor Therapy Based on Bi2Se3/Au Heterostructure with Enhanced Efficacy",
-      "year": 2021,
-      "publication": "Small 17 (28), 2100961, 2021",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:u5HHmVD_uO8C"
-    },
-    {
       "title": "NADPH oxidase‐like nanozyme for high‐efficiency tumor therapy through increasing glutathione consumption and blocking glutathione regeneration",
       "year": 2024,
       "publication": "Advanced Healthcare Materials 13 (11), 2303309, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "title": "NIR‐Triggered Multi‐Mode Antitumor Therapy Based on Bi2Se3/Au Heterostructure with Enhanced Efficacy",
+      "year": 2021,
+      "publication": "Small 17 (28), 2100961, 2021",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:u5HHmVD_uO8C"
     },
     {
       "title": "A cancer nanovaccine based on an FeAl-layered double hydroxide framework for reactive oxygen species-augmented metalloimmunotherapy",
