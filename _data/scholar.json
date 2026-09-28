@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-09-27T14:41:43.957Z",
-  "totalCitations": 4799,
+  "lastUpdated": "2026-09-28T17:39:11.719Z",
+  "totalCitations": 4801,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -17,7 +17,7 @@
     },
     {
       "year": 2021,
-      "citations": 424
+      "citations": 422
     },
     {
       "year": 2022,
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 626
+      "citations": 629
     }
   ],
   "knownScholarArticles": [
@@ -156,16 +156,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
-      "year": 2024,
-      "publication": "Advanced Materials 36 (5), 2308774, 2024",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
-    },
-    {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
       "year": 2024,
       "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "NIR‐activatable heterostructured nanoadjuvant CoP/NiCoP executing lactate metabolism interventions for boosted photocatalytic hydrogen therapy and photoimmunotherapy",
+      "year": 2024,
+      "publication": "Advanced Materials 36 (5), 2308774, 2024",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:3fE2CSJIrl8C"
     },
     {
       "title": "NADPH oxidase‐like nanozyme for high‐efficiency tumor therapy through increasing glutathione consumption and blocking glutathione regeneration",
