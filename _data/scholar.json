@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-10-13T16:56:55.164Z",
-  "totalCitations": 4827,
+  "lastUpdated": "2026-10-14T14:30:44.593Z",
+  "totalCitations": 4829,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 652
+      "citations": 654
     }
   ],
   "knownScholarArticles": [
@@ -302,62 +302,6 @@
       "year": 2026,
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13501102/",
       "sourcePublication": "A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response"
-    },
-    {
-      "title": "Reprogramming the Myeloid–T Cell Ecosystem through Engineered Oncolytic Viruses for Durable Antitumor Immunity",
-      "authors": "C Wu, W Gu, A Qin, H Liu, W Zheng, X Pan",
-      "venue": "C Wu, W Gu, A Qin, H Liu, W Zheng, X Pan… - Critical Reviews in …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S1040842826005251",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "CD47-mediated efferocytosis in diseases: A comprehensive review",
-      "authors": "C Wang, S Yu, J Kang, S Yang, Z Pan, Y Zhao",
-      "venue": "C Wang, S Yu, J Kang, S Yang, Z Pan, Y Zhao… - Molecular Biology …, 2026 - Springer",
-      "year": 2026,
-      "url": "https://link.springer.com/article/10.1007/s11033-026-12854-z",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "Cross-species spatial profiling links progranulin to an immune suppressive niche in brain metastasis",
-      "authors": "NM Eskow, K Prutisto-Chang, MA Gomez-Munoz",
-      "venue": "NM Eskow, K Prutisto-Chang, MA Gomez-Munoz… - bioRxiv, 2026 - biorxiv.org",
-      "year": 2026,
-      "url": "https://www.biorxiv.org/content/10.64898/2026.09.13.751277.abstract",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "Antibody therapeutics: A new era for EGFR-mutant NSCLC treatment",
-      "authors": "X Chen, J Liang, J Zhu, X Huang, Y Hu, Z Lin",
-      "venue": "X Chen, J Liang, J Zhu, X Huang, Y Hu, Z Lin… - Biochimica et Biophysica …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0304419X26001812",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "Context-dependent roles of cGAS–STING signaling in glioblastoma: Therapeutic resistance, drug delivery, and heterogeneity-informed translation",
-      "authors": "Y Long, T Jiang, Y Long, Y Qin, H Cheng, B Li",
-      "venue": "Y Long, T Jiang, Y Long, Y Qin, H Cheng, B Li… - Biomedicine & …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0753332226009510",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "Immunomodulatory potential of galing (Cayratia trifolia L. Domin) plant on IgM antibody and monocytes in Salmonella typhi-infected rats",
-      "authors": "N Rusli, A Jabbar, A Pascayantri",
-      "venue": "N Rusli, A Jabbar, A Pascayantri… - Current Research on …, 2026 - crbb-journal.com",
-      "year": 2026,
-      "url": "https://crbb-journal.com/ojs/index.php/crbb/article/view/150",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
-      "title": "25 Years of Cancer Immunoediting: Dendritic Cells and Macrophages Filled the Missing Gap",
-      "authors": "V Kumar, JH Stewart Iv",
-      "venue": "V Kumar, JH Stewart Iv - Cancers, 2026 - mdpi.com",
-      "year": 2026,
-      "url": "https://www.mdpi.com/2072-6694/18/16/2672",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     }
   ]
 }
