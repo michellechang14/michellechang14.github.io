@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-10-26T16:07:17.065Z",
+  "lastUpdated": "2026-10-27T15:21:12.854Z",
   "totalCitations": 4856,
   "hIndex": 28,
   "i10Index": 33,
@@ -295,6 +295,14 @@
     }
   ],
   "recentCitations": [
+    {
+      "title": "The microbiota-drug delivery nexus: from pharmacomicrobiomics to live biotherapeutic delivery",
+      "authors": "P Joyce",
+      "venue": "P Joyce - Journal of Controlled Release, 2026 - Elsevier",
+      "year": 2026,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0168365926008837",
+      "sourcePublication": "A transferable gut microbiota–bile acid pathway programs nanomedicine pharmacokinetics and therapeutic response"
+    },
     {
       "title": "Host biology as a determinant of in vivo delivery and its translational potential",
       "authors": "Q Liang, H Zhou, Y Wang",
