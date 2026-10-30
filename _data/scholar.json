@@ -2,8 +2,8 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-10-29T16:06:58.749Z",
-  "totalCitations": 4863,
+  "lastUpdated": "2026-10-30T15:56:11.162Z",
+  "totalCitations": 4867,
   "hIndex": 28,
   "i10Index": 33,
   "citationHistory": [
@@ -37,7 +37,7 @@
     },
     {
       "year": 2026,
-      "citations": 691
+      "citations": 695
     }
   ],
   "knownScholarArticles": [
@@ -150,16 +150,16 @@
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:M3ejUd6NZC8C"
     },
     {
-      "title": "Enhanced photoconversion performance of NdVO4/Au nanocrystals for photothermal/photoacoustic imaging guided and near infrared light-triggered anticancer phototherapy",
-      "year": 2019,
-      "publication": "Acta biomaterialia 99, 295-306, 2019",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Y0pCki6q_DkC"
-    },
-    {
       "title": "An enzyme‐engineered coppery nanozyme for high‐efficiency mild photothermal/chemodynamic/starvation therapy through self‐reinforcing cancer energy metabolism regulation",
       "year": 2024,
       "publication": "Advanced Functional Materials 34 (22), 2313853, 2024",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:ULOm3_A8WrAC"
+    },
+    {
+      "title": "Enhanced photoconversion performance of NdVO4/Au nanocrystals for photothermal/photoacoustic imaging guided and near infrared light-triggered anticancer phototherapy",
+      "year": 2019,
+      "publication": "Acta biomaterialia 99, 295-306, 2019",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WaHuZvMAAAAJ&pagesize=100&citation_for_view=WaHuZvMAAAAJ:Y0pCki6q_DkC"
     },
     {
       "title": "NADPH oxidase‐like nanozyme for high‐efficiency tumor therapy through increasing glutathione consumption and blocking glutathione regeneration",
