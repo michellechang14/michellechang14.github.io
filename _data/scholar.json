@@ -2,7 +2,7 @@
   "source": "Google Scholar",
   "profileUrl": "https://scholar.google.com/citations?user=WaHuZvMAAAAJ&hl=en",
   "authorId": "WaHuZvMAAAAJ",
-  "lastUpdated": "2026-11-12T17:35:31.524Z",
+  "lastUpdated": "2026-11-13T17:12:39.819Z",
   "totalCitations": 4884,
   "hIndex": 28,
   "i10Index": 33,
@@ -336,14 +336,6 @@
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     },
     {
-      "title": "Antibody therapeutics: A new era for EGFR-mutant NSCLC treatment",
-      "authors": "X Chen, J Liang, J Zhu, X Huang, Y Hu, Z Lin",
-      "venue": "X Chen, J Liang, J Zhu, X Huang, Y Hu, Z Lin… - Biochimica et Biophysica …, 2026 - Elsevier",
-      "year": 2026,
-      "url": "https://www.sciencedirect.com/science/article/pii/S0304419X26001812",
-      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
-    },
-    {
       "title": "Context-dependent roles of cGAS–STING signaling in glioblastoma: Therapeutic resistance, drug delivery, and heterogeneity-informed translation",
       "authors": "Y Long, T Jiang, Y Long, Y Qin, H Cheng, B Li",
       "venue": "Y Long, T Jiang, Y Long, Y Qin, H Cheng, B Li… - Biomedicine & …, 2026 - Elsevier",
@@ -373,6 +365,14 @@
       "venue": "V Kumar, JH Stewart Iv - Cancers, 2026 - mdpi.com",
       "year": 2026,
       "url": "https://www.mdpi.com/2072-6694/18/16/2672",
+      "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
+    },
+    {
+      "title": "The immunosuppressive tumor microenvironment in glioblastoma",
+      "authors": "J Yang, J Li, M Jin, Y Lu, L Zhang",
+      "venue": "J Yang, J Li, M Jin, Y Lu, L Zhang - Frontiers in Immunology, 2026 - frontiersin.org",
+      "year": 2026,
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2026.1806996/full",
       "sourcePublication": "Dual phagocytosis-checkpoint blockade revitalizes immune surveillance in mouse models of glioblastoma"
     }
   ]
